@@ -1,8 +1,93 @@
----
-layout: home
-title: Welcome
-header: Hi
----
-{% include JB/setup %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <title>Hello</title>
+    <meta name="author" content="Jooooe">
 
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Sticky Footer -->
+    <link href="/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+    <!-- jquery -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/typed.js/dist/typed.min.js"></script>
+
+  </head>
+
+  <body>
+    <script>
+      $(function(){
+        $("#type2-text").hide()
+        $("#type1").typed({
+          stringsElement: $("#type1-text"),
+          typeSpeed: 10,
+	  callback: function(){
+            $("#type1").siblings('.typed-cursor').remove();
+            runSecond();
+          },
+        });
+    });
+      function runSecond(){
+        $("#type2").typed({
+          stringsElement: $("#type2-text"),
+          typeSpeed: 10,
+	  callback: function(){
+            $("#type2").siblings('.typed-cursor').remove();
+          },
+        });
+       }
+
+</script>
+    <div class="container-fluid">
+      <div class="row vcenter">
+        <div class="text-center welcome_bar"> 
+          <noscript>
+          Hello, my name is Joseph. I'm a maker.
+          </noscript>
+          <div id="type1-text" style="display: none">
+          <p>Hello^500, my name is Joseph.^500</p>
+          <p>I'm a^500</p>
+          </div>
+          <span id="type1"> </span>
+          <div id="type2-text" style="display: none">
+          <p>student^250</p>
+          <p>engineer^250</p>
+          <p>coder^250</p>
+          <p>maker.^250</p>
+          </div>
+          <span id="type2"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+ <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
