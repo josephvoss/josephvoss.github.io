@@ -30,6 +30,7 @@
   background-color: rgba(255,255,255,0.4) !important;
   font-size: 20px;
   padding: 5px;
+  border-radius: 10px;
 }
 
 .shadow {
@@ -45,10 +46,27 @@
   padding: 0;
 }
 
-.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.row-fluid {
+  height: 100%;
+  display:table-cell;
+  vertical-align: middle;
+}
+
 .vcenter {
   margin:0 auto;
   float: none;
+}
+
+.fa {
+  color: #2d2d2d;
 }
 
 body {

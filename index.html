@@ -10,6 +10,9 @@
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+    <!-- Font Awesome -->
+    <link href="/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
     <!-- Bootstrap styles -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Optional theme -->
@@ -33,7 +36,8 @@
       <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
       <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
     -->
-    <!-- jquery -->
+
+    <!-- jQuery and Typed.js-->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/typed.js/dist/typed.min.js"></script>
 
@@ -89,15 +93,23 @@
           <span id="type2"></span>
         </div>
         <div class="row text-center">
-          <div class="col-xs-3 col-md-3 col-lg-3"></div>
-          <div id="about_me" class="col-xs-2 col-md-2 col-lg-2 home_nav_bar shadow">
-          About Me
+          <div id="about_me" class="col-xs-2 col-md-2 col-lg-2 col-centered home_nav_bar shadow text-centered">
+            <a href="/about.html" style="color: inherit">About Me</a>
           </div>
-          <div id="contact" class="col-xs-3 col-md-3 col-lg-2"></div>
-          <div id="projects" class="col-xs-2 col-md-2 col-lg-2 home_nav_bar shadow">
-          Projects
+          <div id="contact" class="col-xs-2 col-md-2 col-lg-2 home_nav_bar col-centered shadow">
+            <div class="col-xs-4 col-md-4 col-lg-4 col-centered"><!--
+            --><a href='mailto:josephvoss14@gmail.com' target="_blank"><i class='fa fa-envelope fa-1g'></i></a>
+            </div>
+            <div class="col-xs-4 col-md-4 col-lg-4 col-centered"><!--
+            --><a href='https://github.com/josephvoss' target="_blank"><i class='fa fa-github fa-1g'></i></a>
+            </div>
+            <div class="col-xs-4 col-md-4 col-lg-4 col-centered"><!--
+            --><a href='https://www.linkedin.com/in/josephvoss14' target="_blank"><i class='fa fa-linkedin fa-1g'></i></a>
+            </div>
           </div>
-          <div class="col-xs-3 col-md-3 col-lg-3"></div>
+          <div id="projects" class="col-xs-2 col-md-2 col-lg-2 col-centered home_nav_bar shadow text-centered">
+            <a href="/projects.html" style="color: inherit">Projects</a>
+          </div>
         </div>
       </div>
     </div>
