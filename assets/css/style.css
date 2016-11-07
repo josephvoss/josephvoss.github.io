@@ -73,6 +73,40 @@
   color: #2d2d2d;
 }
 
+.navbar-default {
+    background-image: none;
+    background-color: rgba(255, 255, 255,.4);
+    border-color: transparent;
+}
+
+.active {
+  background-color: rgba(255,255,255, 0) !important;
+  background-image: none !important;
+  color: white !important;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+  border-radius: 10px;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: black !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 25px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #2d2d2d !important;
+}
+
+.navbar-nav {
+  color: white !important;
+}
+
 body {
     background-color: black;
     background: url(img/nebula.jpg) no-repeat center center fixed; 
@@ -82,6 +116,10 @@ body {
     background-size: cover;
 }
 
+.content_body {
+  background-color: white;
+  border-radius: 10px;
+}
 
 /* posts index */
 .post > h3.title {
