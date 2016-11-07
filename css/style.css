@@ -51,13 +51,17 @@
     float:none;
     /* reset the text-align */
     /* inline-block space fix */
-    margin-right:-4px;
+    margin-left:-4px;
 }
 
 .row-fluid {
   height: 100%;
   display:table-cell;
   vertical-align: middle;
+}
+
+.fa {
+  padding: 05px;
 }
 
 .vcenter {

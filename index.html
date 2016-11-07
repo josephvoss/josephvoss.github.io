@@ -47,9 +47,9 @@
     <script>
       $(function(){
         $("#type2-text").hide()
-        $("#about_me").hide()
-        $("#contact").hide()
-        $("#projects").hide()
+        $("#about_me").css('visibility', 'hidden');
+        $("#contact").css('visibility', 'hidden');
+        $("#projects").css('visibility','hidden');
         $("#type1").typed({
           stringsElement: $("#type1-text"),
           typeSpeed: 10,
@@ -65,9 +65,9 @@
           typeSpeed: 10,
 	  callback: function(){
             $("#type2").siblings('.typed-cursor').remove();
-            $("#about_me").fadeIn(1200)
-            $("#contact").fadeIn(1200)
-            $("#projects").fadeIn(1200)
+            $("#about_me").css('visibility','visible').hide().fadeIn(1200);
+            $("#contact").css('visibility','visible').hide().fadeIn(1200);
+            $("#projects").css('visibility','visible').hide().fadeIn(1200);
           },
         });
        }
@@ -97,14 +97,14 @@
             <a href="/about.html" style="color: inherit">About Me</a>
           </div>
           <div id="contact" class="col-xs-2 col-md-2 col-lg-2 home_nav_bar col-centered shadow">
-            <div class="col-xs-4 col-md-4 col-lg-4 col-centered"><!--
-            --><a href='mailto:josephvoss14@gmail.com' target="_blank"><i class='fa fa-envelope fa-1g'></i></a>
+            <div class="col-xs-4 col-md-4 col-lg-4 col-centered")>
+              <a href='mailto:josephvoss14@gmail.com' target="_blank"><i class='fa fa-envelope fa-1g'></i></a>
             </div>
-            <div class="col-xs-4 col-md-4 col-lg-4 col-centered"><!--
-            --><a href='https://github.com/josephvoss' target="_blank"><i class='fa fa-github fa-1g'></i></a>
+            <div class="col-xs-4 col-md-4 col-lg-4 col-centered")>
+              <a href='https://github.com/josephvoss' target="_blank"><i class='fa fa-github fa-1g'></i></a>
             </div>
-            <div class="col-xs-4 col-md-4 col-lg-4 col-centered"><!--
-            --><a href='https://www.linkedin.com/in/josephvoss14' target="_blank"><i class='fa fa-linkedin fa-1g'></i></a>
+            <div class="col-xs-4 col-md-4 col-lg-4 col-centered")>
+              <a href='https://www.linkedin.com/in/josephvoss14' target="_blank"><i class='fa fa-linkedin fa-1g'></i></a>
             </div>
           </div>
           <div id="projects" class="col-xs-2 col-md-2 col-lg-2 col-centered home_nav_bar shadow text-centered">
