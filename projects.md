@@ -45,6 +45,18 @@ The server and the login script are both on github [here].
 
 #### April 2016 to May 2016
 
+For the final project in my Parallel Programming class we were tasked with solving 
+some problem using MPI on the HPC systems at TACC. I was taking Fluid Mechanics at the
+same time, and chose to replicated one of the labs we had completed about the 
+development of laminar flow. With the MPI C++ bindings I wrote a basic simulation 
+which depicted the flow of fluid through a 2 Dimensional pipe in the terms of the 
+pressure and velocity of the fluid elements in a mesh. This data was then exported to 
+python to generate a matplotlib animation which shows how successive iterations 
+changed the result of the simulation.
+
+Link to Report.
+Link to github repo.
+
 ## Vindicator CPU
 
 #### August 2015 to December 2015
