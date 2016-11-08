@@ -10,7 +10,21 @@ group: navigation
 
 #### February 2016 to November 2016
 
+During my parallel programming class I heard of an opprotunity for students to build a 
+configure a high performance computing cluster. I applied to join the team and 
+(surprisingly) got in. Over the next few months we practiced running applications on 
+TACC's systems, designed the hardware configuration of our cluster, and learned about 
+Linux system management and control. My main tasks were running and tuning High 
+Performance Linpack, writing scripts to automatically build, run, and generate 
+matplotlib graphs analysing the performance of several applications, and creating a 
+power monitor system using SNMP communication, stored in a graphite database and 
+visualized with grafana. In the Fall our hardware came in, and we assembled and 
+configured our cluster of 12 nodes by using Open HPC to bootstrap a few representative 
+nodes, then cloned out their images to the rest of the cluster. On Novemeber 11th, we 
+will fly out to Salt Lake City for the Super Computing Conference to test our cluster 
+against other students' machines from around the globe.
 
+Link to the SCC Competition's website.
 
 ## Two Factor is Annoying
 
