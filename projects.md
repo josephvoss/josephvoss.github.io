@@ -55,6 +55,7 @@ python to generate a matplotlib animation which shows how successive iterations
 changed the result of the simulation.
 
 Link to Report.
+
 Link to github repo.
 
 ## Vindicator CPU
