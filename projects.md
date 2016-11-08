@@ -49,7 +49,7 @@ For the final project in my Parallel Programming class we were tasked with solvi
 some problem using MPI on the HPC systems at TACC. I was taking Fluid Mechanics at the
 same time, and chose to replicated one of the labs we had completed about the 
 development of laminar flow. With the MPI C++ bindings I wrote a basic simulation 
-which depicted the flow of fluid through a 2 Dimensional pipe in the terms of the 
+which depicted the flow of fluid through a two dimensional channel in the terms of the 
 pressure and velocity of the fluid elements in a mesh. This data was then exported to 
 python to generate a matplotlib animation which shows how successive iterations 
 changed the result of the simulation.
@@ -70,7 +70,36 @@ Link to github repo.
 
 #### October 2014 to December 2014
 
-## DIY Carbon Dioxide Laser/Vandium Dioxide Logic Gates
+After initially getting experience with the Linux command line, I realized how much 
+work could be done with a simple text-user-interface. Simultaneously, I wanted to have 
+an ultra-portable PC, and realized that computing hardware was able to be minimized 
+easily. The largest components of portable systems were the interfaces: the display 
+and keyboard. Several portable keyboard options exist, but there's no inexpensive 
+portable display. I thought that by reducing the resolution of the display to the 
+absolute minimum to produce readable text, a portable text-user-interface could be 
+added to a small computer like a Raspberry Pi. As a proof of concept I laser-cut a 
+disk with several small holes, which when rotated would create an 8x5 persistance of 
+vision display. Using an ATTINY microcontroller and a hall effect sensor, a single LED 
+was programmed to blink in series with the rotation of the disk, which would 
+selectively turn a single pixel on or off. This proof of concept ultimately failed to 
+do the low clock speed of the microcontroller and the instability of the brushed DC 
+motor. A distict varying pattern could be seen during the test runs, but a steady 
+image was never formed. I intend to re-attempt this project with a brushless motor to 
+enable more speed control, but I would like to have more electronics experience 
+through my coursework before I pick it back up again.
 
-#### June 2012 to April 2014
+## Vandium Dioxide Logic Gates
+
+#### June 2013 to April 2014
+
+In high school I became fascinated with the operation of logic gates, and wanted to 
+build a basic adder circuit, but in a new and innovative way. From my chemistry 
+experience, I had learned about the metamaterial Vanadium Dioxide and it's 
+thermo-chromatic triggering properties. By following the manufacturing prodecure 
+outlined in [Deki, Aoi, & Kajinami's paper](https://dx.doi.org/10.1023/A:1018603402586), I designed a set of optical logic gates using the Vanadium Dioxide thin films that 
+would produce binary levels of infrared light. This infrared light needed to be 
+powerful enough to heat these Vi-O<sub>2</sub> thin films, so I set about constructing 
+a flowing-air Carbon Dioxide laser. I was able to obtain several initial lases with 
+this resonator, but eventually retired this project due to the difficulty of keeping a 
+low vaccum, dangers of working with high voltage, and shear impractibility of it.
 
