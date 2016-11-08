@@ -6,7 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-## SCC
+## Student Cluster Competition
 
 #### February 2016 to November 2016
 
