@@ -79,16 +79,23 @@
     border-color: transparent;
 }
 
+.navbar-default .navbar-toggle:hover {
+  background-color: #2d2d2d !important;
+}
+
 .active {
   background-color: rgba(255,255,255, 0) !important;
   background-image: none !important;
-  color: white !important;
+  color: black !important;
   -moz-box-shadow:    inset 0 0 10px #000000;
   -webkit-box-shadow: inset 0 0 10px #000000;
   box-shadow:         inset 0 0 10px #000000;
   border-radius: 10px;
 }
 
+.navbar-default .navbar-nav > li > a {
+  color: #2d2d2d !important;
+}
 
 .navbar-default .navbar-nav > li > a:hover {
   color: black !important;
@@ -99,12 +106,12 @@
   font-size: 25px;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-toggle {
   color: #2d2d2d !important;
 }
 
 .navbar-nav {
-  color: white !important;
+  color: black !important;
 }
 
 body {
