@@ -1,21 +1,38 @@
 ---
-layout: page
+layout: about
 title: About
 header: About Me
 group: navigation
 ---
 {% include JB/setup %}
 
-<ul class="tag_box inline">
-  {% assign tags_list = site.tags %}  
-  {% include JB/tags_list %}
-</ul>
+<div class="container">
+  <div class="row">
+    <br>
+      <img src="https://cdn3.iconfinder.com/data/icons/rcons-user-action/32/boy-512.png" class="img-responsive img-circle center-block" id="headshot_image">
+    </div>
+  </div>
 
+  <div class="container content_body">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="text-center"><h2>About Me</h2></div>
+        <hr>
+        <h4>
+Hi, my name is Joseph Voss. I'm a Mechanical Engineering student at the University of 
+Texas at Austin with a specialty in Mechatronics, but I've spent a lot of time working 
+with the Texas Advanced Computing Center and on various software problems. I'm an 
+engineer through and through, and will use whatever tool I think is necessary to solve 
+a problem, whether it be a wrench or a keyboard. In my free time I work on one of my 
+many personal projects, listen to slam poetry, and play quidditch.
+        <br>
+        <br>
+        <a href="/img/resume.pdf">Resume</a>
+        </h4>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
 
-{% for tag in site.tags %} 
-  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-  <ul>
-    {% assign pages_list = tag[1] %}  
-    {% include JB/pages_list %}
-  </ul>
-{% endfor %}
