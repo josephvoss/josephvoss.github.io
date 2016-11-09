@@ -59,6 +59,19 @@
     border-color: transparent;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #2d2d2d !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #2d2d2d !important;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: white !important;
+  border-color: #2d2d2d;
+}
+
 .navbar-default .navbar-toggle:hover {
   background-color: #2d2d2d !important;
 }
@@ -77,13 +90,17 @@
   color: #2d2d2d !important;
   font-size: 20px;
 }
+.navbar-default .navbar-nav > li > a {
+  color: #2d2d2d !important;
+  font-size: 20px;
+}
 
 .navbar-default .navbar-nav > li > a:hover {
   color: black !important;
 }
 
 .navbar-brand {
-  color: white !important;
+  color: #2d2d2d !important;
   font-size: 25px;
 }
 
