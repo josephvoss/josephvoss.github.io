@@ -33,10 +33,11 @@
     margin-left:-4px;
 }
 
-.row-fluid {
-  height: 100%;
-  display:table-cell;
+#home-row {
+  display: table-cell;
   vertical-align: middle;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .fa {
@@ -101,6 +102,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .content_body {
