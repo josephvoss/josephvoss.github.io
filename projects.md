@@ -42,7 +42,7 @@ a Raspberry Pi, encrypted and stored. Whenever I needed to login to TACC systems
 script on my local machine would send a login request, wait for the access code to be 
 received and encrypted on the server, retrieve it, decrypt it, and send it to TACC.
 
-The server and the login script are both on github [here](https://github.com/josephvoss/AutomatedTwoFactor). 
+[Link to github repo with server and login script](https://github.com/josephvoss/AutomatedTwoFactor). 
 
 ## Fluid Flow Simulation
 
