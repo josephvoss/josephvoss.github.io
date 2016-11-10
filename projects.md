@@ -28,7 +28,7 @@ to test our cluster against other students' machines from around the globe.
 
 [Link to the SCC Competition's website](http://www.studentclustercompetition.us/).
 
-## Automated Two Factor
+## Automated Two Factor Authentication
 
 #### September 2016
 
@@ -76,9 +76,9 @@ bread-boarding the FPGA with small static RAM chips to serve as external memory.
 I was able to manually set the bits in the RAM, there was an error with the Verilog 
 memory handler I wrote which prevented writing any data out to memory. After several 
 weeks at a standstill I resolved to wait to finish this project until I had more 
-experience working with FPGAs
+experience working with FPGAs.
 
-[Link to github repo](https://github.com/josephvoss/the-vindicator-cpu)
+[Link to github repo](https://github.com/josephvoss/the-vindicator-cpu).
 
 ## Portable Bluetooth Display
 
@@ -142,4 +142,3 @@ powerful enough to heat these Vi-O<sub>2</sub> thin films, so I set about constr
 a flowing-air Carbon Dioxide laser. I was able to obtain several initial lases with 
 this resonator, but eventually retired this project due to the difficulty of keeping a 
 low vacuum, dangers of working with high voltage, and shear impracticability of it.
-
