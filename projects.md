@@ -10,15 +10,17 @@ group: navigation
 
 #### February 2016 to November 2016
 
-During my parallel programming class I heard of an opportunity for students to build a 
-configure a high performance computing cluster. I applied to join the team and 
-(surprisingly) got in. Over the next few months we practiced running applications on 
+During my parallel programming class I heard of an opportunity for students to build 
+and configure a high performance computing cluster. I applied to join the six-person 
+team and (surprisingly) was accepted. Over the next few months we practiced 
+running applications on 
 Texas Advanced Computing Center (TACC)'s systems, designed the hardware configuration 
 of our cluster, and learned about Linux system management and control. My main tasks 
 were running and tuning High Performance Linpack, writing scripts to automatically 
-build, run, and generate matplotlib graphs analyzing the performance of several 
-applications, and creating a power monitor system using SNMP communication, stored in 
-a graphite database and visualized with grafana. In the Fall our hardware came in, and 
+build, run, and generate matplotlib graphs that analyzed the performance of several 
+applications. I also created a power monitor system using SNMP communication, which 
+stores data in a graphite database and visualized with grafana. In the Fall our 
+hardware came in, and 
 we assembled and configured our cluster of 12 nodes by using Open HPC to bootstrap a 
 few representative nodes, then cloned out their images to the rest of the cluster. On 
 November 11th, we will fly out to Salt Lake City for the Super Computing Conference 
@@ -33,9 +35,9 @@ to test our cluster against other students' machines from around the globe.
 In the Fall of 2016, Texas Advanced Computing Center (TACC) began to require users to 
 use two factor authentication to access their systems. Realistically for me, I usually 
 opened several terminals on their clusters multiple times a day, and with ssh-keys 
-set up this was never a problem. However, now having to use input a two factor code from 
-my phone for every terminal got really annoying really quickly. Using [Twilio] (https://www.twilio.com/) 
-I configured the two-factor codes to be send to a Flask web server I set up on 
+set up this was never a problem. However, now having to input a two factor code from 
+my phone for every terminal I opened got really annoying. Using [Twilio] (https://www.twilio.com/) 
+I configured the two-factor codes to be sent to a Flask web server I set up on 
 a Raspberry Pi, encrypted and stored. Whenever I needed to login to TACC systems, a 
 script on my local machine would send a login request, wait for the access code to be 
 received and encrypted on the server, retrieve it, decrypt it, and send it to TACC.
@@ -48,10 +50,10 @@ The server and the login script are both on github [here](https://github.com/jos
 
 For the final project in my Parallel Programming class we were tasked with solving 
 some problem using MPI on the HPC systems at Texas Advanced Computing Center (TACC). 
-I was taking Fluid Mechanics at the same time, and chose to replicated one of the labs 
-we had completed about the development of laminar flow. With the MPI C++ bindings I 
+I was taking Fluid Mechanics at the same time, and chose to replicate one of the labs 
+we had completed about the development of laminar flow. With the MPI C++ bindings, I 
 wrote a basic simulation which depicted the flow of fluid through a two dimensional 
-channel in the terms of the pressure and velocity of the fluid elements in a mesh. 
+channel in the terms of pressure and velocity of the fluid elements in a mesh. 
 This data was then exported to python to generate a matplotlib animation which shows 
 how successive iterations changed the result of the simulation.
 
@@ -63,8 +65,8 @@ how successive iterations changed the result of the simulation.
 
 #### August 2015 to December 2015
 
-During my Mechanical Engineering Computational Methods class the professor explained 
-the basic operation of a processor, which re-ignited my interest in the function of 
+During my Mechanical Engineering Computational Methods class, the professor explained 
+the basic operation of a processor. This  re-ignited my interest in the function of 
 low level logic gate operations. Initially I used logic-gate modeling software to 
 try and design basic components like an Arithmetic Logic Unit, but after making some 
 progress I moved to designing these components in Verilog so it could be ported to 
@@ -89,11 +91,11 @@ the text. The data was sent to the display over a bluetooth connection from a
 Raspberry Pi. This Raspberry Pi was configured to connect to a bluetooth keyboard on 
 start up, and run a small script which captured all input and piped it into a serial 
 console hosted on a second bluetooth connection. This second connection was attached 
-to the Arduino, and send all output to the microcontroller which displayed it on the 
+to the Arduino, and sent all output to the microcontroller which displayed it on the 
 TFT screen. The initial proof of concept worked as shown in the image, but several 
-issues prevented this from becoming a usable device. The screen used was to small to 
-do any productive work, and most of the screen control characters like clear didn't 
-work out of the box, meaning that Arduino display library used would have to be 
+issues prevented this from becoming a usable device. The screen used was too small to 
+do any productive work, and most of the screen control characters like "clear" didn't 
+work out of the box, meaning that the Arduino display library used would have to be 
 rewritten. Additionally, the bluetooth connection was maxed at 57600 bits/s, 
 meaning that even if the screen control commands worked it would take a while to do 
 anything productive. This would be a nonstarter for even editing text using an editor 
