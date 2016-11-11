@@ -223,7 +223,7 @@ body {
   #headshot_image {
     background-color: #FFFFFF;
     max-height: auto;
-    max-width: 75%;
+    max-width: 50%;
     border:10px solid #FFFFFF;
     border-radius: 500px;
     -webkit-border-radius: 500px;
