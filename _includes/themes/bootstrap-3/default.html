@@ -91,6 +91,7 @@
   <div class="device-md visible-md"></div>
   <div class="device-lg visible-lg"></div>
     <script>
+      //Test device size - so janky
       var test = $('.device-xs').is(':visible');
       if( !test ) {
         $("#header-link-row").addClass("text-right");
@@ -99,6 +100,14 @@
         $("#header-link-row").removeClass("text-right");
         $("#header-link-row").addClass("text-center");
       }
+
+      //Prevent scrollbar resizing issue
+      var bg = jQuery("body");
+      jQuery(window).resize("resizeBackground");
+      function resizeBackground() {
+          bg.height(jQuery(window).height());
+      }
+      resizeBackground();
     </script>
 
   </body>
