@@ -36,7 +36,7 @@ In the Fall of 2016, Texas Advanced Computing Center (TACC) began to require use
 use two factor authentication to access their systems. Realistically for me, I usually 
 opened several terminals on their clusters multiple times a day, and with ssh-keys 
 set up this was never a problem. However, now having to input a two factor code from 
-my phone for every terminal I opened got really annoying. Using [Twilio] (https://www.twilio.com/) 
+my phone for every terminal I opened got really annoying. Using [Twilio](https://www.twilio.com/) 
 I configured the two-factor codes to be sent to a Flask web server I set up on 
 a Raspberry Pi, encrypted and stored. Whenever I needed to login to TACC systems, a 
 script on my local machine would send a login request, wait for the access code to be 
