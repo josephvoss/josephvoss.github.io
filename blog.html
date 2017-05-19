@@ -9,12 +9,19 @@ group: navigation
 <div class="container">
   <div class="row">
     <ul>
-        {% for post in site.posts %}
-            <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-                {{ post.excerpt }}
-            </li>
-        {% endfor %}
+  <div class="container content_body" style="background-color: rgba(255,255,255, .9) !important;">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="text-center"><h2>Blog</h2></div>
+            {% for post in site.posts %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    {{ post.excerpt }}
+                </li>
+            {% endfor %}
+        <hr>
+      </div>
+    </div>
     </ul>
   </div>
 </div>
