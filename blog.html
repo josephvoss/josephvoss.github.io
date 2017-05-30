@@ -6,10 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<div class="container">
-  <div class="row">
-    <ul>
-  <div class="container content_body" style="background-color: rgba(255,255,255, .9) !important;">
+<div class="container content_body" style="background-color: rgba(255,255,255, .9) !important;">
     <div class="row">
       <div class="col-xs-12">
         <div class="text-center"><h2>Blog</h2></div>
@@ -20,8 +17,10 @@ group: navigation
                 <li>
 		    <h4>
                     <a href="{{ post.url }}">{{ post.title }}</a>
-                    {{ post.excerpt }}
 		    </h4>
+                    <div style="padding-left: 10px">
+		      {{ post.excerpt }}
+		    </div>
                 </li>
             {% endfor %}
         <br>
@@ -29,7 +28,5 @@ group: navigation
 	</div>
       </div>
     </div>
-    </ul>
-  </div>
 </div>
 
