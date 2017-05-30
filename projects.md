@@ -6,7 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-## Grafana Visualization
+### Grafana Visualization
 
 #### February 2017
 
@@ -33,7 +33,7 @@ accurate relative view to show drops in network connectivity.*
 [Link to System Usage
 Information](http://view.jvoss14.com/dashboard/db/system-usage)
 
-## Student Cluster Competition
+### Student Cluster Competition
 
 #### February 2016 to November 2016
 
@@ -55,7 +55,7 @@ to test our cluster against other students' machines from around the globe.
 
 [Link to the SCC Competition's website](http://www.studentclustercompetition.us/).
 
-## Automated Two Factor Authentication
+### Automated Two Factor Authentication
 
 #### September 2016
 
@@ -71,7 +71,7 @@ received and encrypted on the server, retrieve it, decrypt it, and send it to TA
 
 [Link to github repo with server and login script](https://github.com/josephvoss/AutomatedTwoFactor). 
 
-## Fluid Flow Simulation
+### Fluid Flow Simulation
 
 #### April 2016 to May 2016
 
@@ -88,7 +88,7 @@ how successive iterations changed the result of the simulation.
 
 [Link to github repo](https://github.com/josephvoss/FluidFlow).
 
-## Vindicator CPU
+### Vindicator CPU
 
 #### August 2015 to December 2015
 
@@ -107,7 +107,7 @@ experience working with FPGAs.
 
 [Link to github repo](https://github.com/josephvoss/the-vindicator-cpu).
 
-## Portable Bluetooth Display
+### Portable Bluetooth Display
 
 #### March 2015 to April 2015
 
@@ -133,7 +133,7 @@ increase the transfer rate to 2 Mb/s. In the Summer of 2016 I attempted to progr
 FPGA to handle this serial communication and LCD driving, but was unable to see it to 
 fruition.
 
-## Single LED Rotating Disk Projector
+### Single LED Rotating Disk Projector
 
 #### October 2014 to December 2014
 
@@ -155,7 +155,7 @@ image was never formed. I intend to re-attempt this project with a brushless mot
 enable more speed control, but I would like to have more electronics experience 
 through my coursework before I pick it back up again.
 
-## Vandium Dioxide Logic Gates
+### Vandium Dioxide Logic Gates
 
 #### June 2013 to April 2014
 
