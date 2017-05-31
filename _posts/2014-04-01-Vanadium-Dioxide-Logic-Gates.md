@@ -4,14 +4,12 @@ layout: post
 title: Vanadium Dioxide Logic Gates
 group: posts
 catagories: old electrical chemistry
+description: |
+ June 2013 to April 2014: Design for an optical computer using thermochromatic thin films
 
 ---
 {% include JB/setup %}
 
-June 2013 to April 2014
-
-Design for an optical computer using thermochromatic thin films
-<!--excerpt-->
 
 In high school I became fascinated with the operation of logic gates, and wanted to 
 build a basic adder circuit, but in a new and innovative way. From my chemistry 

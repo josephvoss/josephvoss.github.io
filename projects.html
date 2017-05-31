@@ -1,7 +1,7 @@
 ---
-layout: about
-title: Blog
-header: Blog Posts
+layout: default
+title: Projects
+header: Joseph Voss's Personal Projects
 group: navigation
 ---
 {% include JB/setup %}
@@ -9,19 +9,19 @@ group: navigation
 <div class="container content_body" style="background-color: rgba(255,255,255, .9) !important;">
     <div class="row">
       <div class="col-xs-12">
-        <div class="text-center"><h2>Blog</h2></div>
+          <div class="text-center"><h2>{{ page.title }}</h2></div>
 	<div style="padding-left: 10px">
 	    <hr>
 	    <br>
             {% for post in site.posts %}
-                <li>
-		    <h4>
+            <li>
+                <h4>
                     <a href="{{ post.url }}">{{ post.title }}</a>
-		    </h4>
+                </h4>
                     <div style="padding-left: 10px">
-		      {{ post.excerpt }}
-		    </div>
-                </li>
+                    {{ post.description }}
+                </div>
+            </li>
             {% endfor %}
         <br>
         <br>

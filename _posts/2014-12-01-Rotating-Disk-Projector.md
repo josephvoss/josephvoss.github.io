@@ -1,18 +1,16 @@
 ---
 
 layout: post
-title: Vanadium Dioxide Logic Gates
+title: Rotating Disk Projector
 group: posts
 catagories: old electrical peripherals
+description: |
+  October to December 2014:
+  Prototype of compact and inexpensive display using a rotating disk and a single LED
 
 ---
 {% include JB/setup %}
 
-October 2014 to December 2014
-
-Prototype of compact and inexpensive display using a rotating disk and a single
-LED
-<!--excerpt-->
 
 After initially getting experience with the Linux command line through my 
 experience working at Applied Research Laboratories over the Summer of 2014, I realized how much 

@@ -4,16 +4,14 @@ layout: post
 title: Grafana Visualization
 group: posts
 catagories: old pure-software database
+description: |
+ February 2017: Visualization of home server metrics and the status of local sensors
 
 ---
 {% include JB/setup %}
 
-February 2017
-
-Visualization of home server metrics and the status of local sensors.
-<!--excerpt-->
-
-As part of the Student Cluster Competition team with TACC (details [here] (http://jvoss14.com/2016/11/18/Student-Cluster-Competition), I
+As part of the Student Cluster Competition team with TACC (details 
+[here](http://jvoss14.com/2016/11/18/Student-Cluster-Competition)), I
 created a power monitoring tool using graphite and grafana. During this time I
 realized how powerful a tool like grafana is for sharing and cleaning
 visualizing data and sought to find other applications for it. Recently I

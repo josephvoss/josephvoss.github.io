@@ -4,14 +4,11 @@ layout: post
 title: Fluid Flow Simulation
 group: posts
 catagories: old high-performance-computing academic pure-software
+description: |
+ April to May 2016: Navier-Stokes solver in C++ using MPI on TACC systems
 
 ---
 {% include JB/setup %}
-
-April 2016 to May 2016
-
-Navier-Stokes solver in C++ using MPI on TACC systems
-<!--excerpt-->
 
 For the final project in my Parallel Programming class we were tasked with solving 
 some problem using MPI on the HPC systems at Texas Advanced Computing Center (TACC). 

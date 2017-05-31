@@ -4,15 +4,14 @@ layout: post
 title: Student Cluster Competition
 group: posts
 catagories: old high-performance-computing
+description: |
+ February 2016 to November 2016:
+ International competition where students design, built, and test a
+ high-performance cluster at the SC16 conference at Salt Lake City
 
 ---
 {% include JB/setup %}
 
-February 2016 to November 2016
-
-International competition where students design, built, and test a
-high-performance cluster at the SC16 conference at Salt Lake City.  
-<!--excerpt-->
 
 During my parallel programming class I heard of an opportunity for students to build 
 and configure a high performance computing cluster. I applied to join the six-person 

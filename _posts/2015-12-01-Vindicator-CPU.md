@@ -4,14 +4,11 @@ layout: post
 title: Vindicator CPU 
 group: posts
 catagories: old electrical FPGA
+description: |
+ August to December 2015: Attempt to write an 8 bit core from scratch in Verilog
 
 ---
 {% include JB/setup %}
-
-August 2015 to December 2015
-
-Attempt to write an 8 bit core from scratch in Verilog
-<!--excerpt-->
 
 During my Mechanical Engineering Computational Methods class, the professor explained 
 the basic operation of a processor. This  re-ignited my interest in the function of 

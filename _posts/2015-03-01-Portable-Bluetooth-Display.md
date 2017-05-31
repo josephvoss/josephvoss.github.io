@@ -4,14 +4,11 @@ layout: post
 title: Portable Bluetooth Display
 group: posts
 catagories: old electrical peripherial
+description: |
+ March 2015 to April 2015: Text-only serial display operating wirelessly over bluetooth
 
 ---
 {% include JB/setup %}
-
-March 2015 to April 2015
-
-Text-only serial display operating wirelessly over bluetooth
-<!--excerpt-->
 
 In a similar vein to the LED projector I attempted to build earlier, I wanted to 
 create a portable text-only display. This time instead of creating a display from 
