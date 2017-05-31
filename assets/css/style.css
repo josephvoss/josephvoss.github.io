@@ -124,6 +124,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     overflow-x: hidden;
+    font-size: 16px;
 }
 
 .content_body {
