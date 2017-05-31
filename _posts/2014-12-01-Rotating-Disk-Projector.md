@@ -3,7 +3,7 @@
 layout: post
 title: Rotating Disk Projector
 group: posts
-catagories: old electrical peripherals
+categories: old electrical peripherals
 description: |
   October to December 2014:
   Prototype of compact and inexpensive display using a rotating disk and a single LED

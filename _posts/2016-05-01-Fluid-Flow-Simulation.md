@@ -3,7 +3,7 @@
 layout: post
 title: Fluid Flow Simulation
 group: posts
-catagories: old high-performance-computing academic pure-software
+categories: old high-performance-computing academic pure-software
 description: |
  April to May 2016: Navier-Stokes solver in C++ using MPI on TACC systems
 

@@ -3,7 +3,7 @@
 layout: post
 title: Grafana Visualization
 group: posts
-catagories: old pure-software database
+categories: old pure-software database
 description: |
  February 2017: Visualization of home server metrics and the status of local sensors
 

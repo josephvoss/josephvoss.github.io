@@ -3,7 +3,7 @@
 layout: post
 title: Vanadium Dioxide Logic Gates
 group: posts
-catagories: old electrical chemistry
+categories: old electrical chemistry
 description: |
  June 2013 to April 2014: Design for an optical computer using thermochromatic thin films
 

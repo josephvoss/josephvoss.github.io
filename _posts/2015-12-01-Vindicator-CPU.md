@@ -3,7 +3,7 @@
 layout: post
 title: Vindicator CPU 
 group: posts
-catagories: old electrical FPGA
+categories: old electrical FPGA
 description: |
  August to December 2015: Attempt to write an 8 bit core from scratch in Verilog
 
