@@ -8,6 +8,8 @@ description: |
  February to May 2017: Design and manufacture of the mechanical components of
  an RC car for a class in Machine Elements
 
+published: false
+
 ---
 {% include JB/setup %}
 
