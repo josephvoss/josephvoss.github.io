@@ -19,6 +19,6 @@ channel in the terms of pressure and velocity of the fluid elements in a mesh.
 This data was then exported to python to generate a matplotlib animation which shows 
 how successive iterations changed the result of the simulation.
 
-[Link to report](assets/img/FluidFlowWriteup.pdf).
+[Link to report](/assets/img/FluidFlowWriteup.pdf).
 
 [Link to github repo](https://github.com/josephvoss/FluidFlow).
