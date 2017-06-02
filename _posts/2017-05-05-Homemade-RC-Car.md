@@ -45,7 +45,6 @@ building the rest of the car we figured it hold up throughout the final race.
 <br>
 <img class="img-responsive center-block" style="max-width: 75%" src="/assets/img/FEA Chassis.png">
 <br>
-<!--![Chassis FEA](/assets/img/FEA Chassis.png | width=100)-->
 
 The drive-train design centered around the choice in the gear ratio. Using the
 rated torque-speed curve of the provided motor and assuming the coefficient of
@@ -76,14 +75,12 @@ print, and fit perfectly on the first attempt.
 <img class="img-responsive center-block" src="/assets/img/rc car steering_cropped.gif">
 <br>
 
-Overall our car placed first in the competition. Our final report,
-our presentation, and some videos of the race are shown below.
+Overall our car placed first in the competition. Our final report and presentation are shown below.
 
 [Link to report](/assets/img/FinalReport.pdf)
 
 [Link to
 presentation](https://docs.google.com/presentation/d/1Y0cdPDCUEBBNTLJp0JSCgqZbfYQr_6cODhHjN4-cQM4/pub?start=false&loop=false&delayms=3000#slide=id.g217269ab07_0_81)
-
 
 <br>
 <img class="img-responsive center-block" src="/assets/img/Full_car.jpg">
