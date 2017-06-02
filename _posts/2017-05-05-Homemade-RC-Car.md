@@ -49,7 +49,8 @@ building the rest of the car we figured it hold up throughout the final race.
 
 The drive-train design centered around the choice in the gear ratio. Using the
 rated torque-speed curve of the provided motor and assuming the coefficient of
-friction to be around 0.9, we estimated a desired gear ratio of ADDDD between
+friction to be around 0.9, we estimated a desired gear ratio in the range of
+3-7 between
 the motor and the wheels. To help give us more traction during the turns and
 avoid wheel slippage we chose to make a rear driven car with a rear 
 differential. Initially we tried to 3D print the differential, but the gear
