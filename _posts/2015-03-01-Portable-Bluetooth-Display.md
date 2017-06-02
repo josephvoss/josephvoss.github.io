@@ -31,3 +31,9 @@ display much faster than a microcontroller could, and a 2.4 GHz transmitter coul
 increase the transfer rate to 2 Mb/s. In the Summer of 2016 I attempted to program a 
 FPGA to handle this serial communication and LCD driving, but was unable to see it to 
 fruition.
+
+<br>
+<img class="img-responsive center-block" style="max-width: 75%;"
+src="/assets/img/Bluetooth_display.jpg">
+<br>
+

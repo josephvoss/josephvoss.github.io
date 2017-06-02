@@ -13,7 +13,7 @@ group: navigation
 
 	<div style="padding-left: 10px">
 	    <hr>
-            <img class="img-responsive pull-right" style="max-width: 25%" src="/assets/img/Full_car.jpg">
+            <div class="col-xs-6">
             {% for post in site.posts %}
             <li>
                 <h4>
@@ -24,6 +24,13 @@ group: navigation
                 </div>
             </li>
             {% endfor %}
+            </div>
+            <div class="col-xs-6">
+            <img class="img-responsive center-block" style="max-width: 75%" src="/assets/img/Full_car.jpg">
+            <br>
+            <img class="img-responsive center-block" style="max-width: 50%" src="/assets/img/Bluetooth_display.jpg">
+            <br>
+            </div>
         <br>
         <br>
 	</div>
