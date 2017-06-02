@@ -10,6 +10,13 @@ description: |
 ---
 {% include JB/setup %}
 
+<img class="img-responsive center-block" style="max-width: 75%" src="/assets/img/solvedFlow2.png">
+<div align="center">Solved velocity and pressure for flow through a 2
+dimensional channel</div>
+<br>
+
+
+
 For the final project in my Parallel Programming class we were tasked with solving 
 some problem using MPI on the HPC systems at Texas Advanced Computing Center (TACC). 
 I was taking Fluid Mechanics at the same time, and chose to replicate one of the labs 
