@@ -5,7 +5,7 @@ title: Student Cluster Competition
 group: posts
 categories: old high-performance-computing
 description: |
- February 2016 to November 2016:
+ February to November 2016:
  International competition where students design, built, and test a
  high-performance cluster at the SC16 conference at Salt Lake City
 

@@ -5,7 +5,7 @@ title: Portable Bluetooth Display
 group: posts
 categories: old electrical peripheral
 description: |
- March 2015 to April 2015: Text-only serial display operating wirelessly over bluetooth
+ March to April 2015: Text-only serial display operating wirelessly over bluetooth
 
 ---
 {% include JB/setup %}
