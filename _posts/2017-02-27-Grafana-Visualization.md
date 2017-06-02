@@ -10,6 +10,11 @@ description: |
 ---
 {% include JB/setup %}
 
+<br>
+<img class="img-responsive center-block" style="max-width: 90%;"
+src="/assets/img/grafana_speedtest.png">
+<br>
+
 As part of the Student Cluster Competition team with TACC (details 
 [here](http://jvoss14.com/2016/11/18/Student-Cluster-Competition)), I
 created a power monitoring tool using graphite and grafana. During this time I
