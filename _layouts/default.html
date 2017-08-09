@@ -11,7 +11,7 @@
     mechanical engineering student with a history of software experience. 
     Currently a student at the University of Texas at Austin.">
     <meta name="keywords" content="Joseph Voss,student,engineer,mechanical
-    engineering,university of texas,student cluster competition,SCC">
+    engineering,university of texas,student cluster competition,SCC,HPC">
 
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,46 +38,117 @@
 
       <link rel="shortcut icon" href="/images/favicon.png">
 
+    <!-- jQuery and Typed.js-->
+      <script src="/bower_components/jquery/dist/jquery.js"></script>
+      <script src="/bower_components/typed.js/dist/typed.min.js"></script>
+
+
+
   </head>
 
   <body>
-    <div id="wrap">
-      <nav class="navbar navbar-default" role="navigation">
-      <div class="row-lg-8">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">{{ site.title }}</a>
-        </div>
+    <br>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
-          <ul class="nav navbar-nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
-        <div class="row" id="header-link-row" style="padding: 5px;">
-            <div class="col-xs-3 col-sm-1 col-md-1 col-lg-1 col-centered text-center vcenter">
-              <a href='mailto:josephvoss14@gmail.com' target="_blank"><i class='fa fa-envelope fa-2x' style="vertical-align: middle;"></i></a>
-            </div>
-            <div class="col-xs-3 col-sm-1 col-md-1 col-lg-1 col-centered text-center vcenter">
-              <a href='https://github.com/josephvoss' target="_blank"><i class='fa fa-github fa-2x' style="vertical-align: middle;"></i></a>
-            </div>
-            <div class="col-xs-3 col-sm-1 col-md-1 col-lg-1 col-centered text-center vcenter">
-              <a href='https://www.linkedin.com/in/josephvoss14' target="_blank"><i class='fa fa-linkedin fa-2x' style="vertical-align: middle;"></i></a>
-            </div>
-        </div>
-        </div><!-- /.navbar-collapse -->
-        </div>
-      </nav>
+      <div class="container row-xs-12" >
+          <div class="col-xs-12 col-md-3">
+              <div class="col-xs-12 content_body text-center">
+                  <div class='col-xs-12 text-center '>  
+                    <h3>Joseph Voss</h3>
+                    <hr>
+                  </div>
 
-        {{ content }}
+                <div class="row text-center">
+                    <div class="col-xs-3 ">
+                      <a href='mailto:josephvoss14@gmail.com' target="_blank"><i class='fa fa-envelope fa-1x' style="vertical-align: middle; font-size: 1.5em;"></i></a>
+                    </div>
+
+                    <div class="col-xs-3 ">
+                      <a href='https://github.com/josephvoss' target="_blank"><i class='fa fa-github fa-1x' style="vertical-align: middle; font-size: 1.5em;"></i></a>
+                    </div>
+
+                    <div class="col-xs-3 ">
+                      <a href='https://www.linkedin.com/in/josephvoss14' target="_blank"><i class='fa fa-linkedin fa-1x' style="vertical-align: middle; font-size: 1.5em;"></i></a>
+                    </div>
+                    <div class="col-xs-3 ">
+                      <a href='/resume.pdf' target="_blank"><i class='fa fa-file-text fa-1x' style="vertical-align: middle; font-size: 1.5em;"></i></a>
+                    </div>
+                </div>
+                <br>
+
+    Mechanical Engineering student at The University of Texas at Austin
+    specializing in Mechatronics and High Performance Computing.
+                <br>
+                <br>
+
+
+              </div>
+              <div class="col-xs-12"><br></div>
+              <div class="col-xs-12 content_body text-center">
+                  <div class='nav col-centered'>
+                      <a href='/resume.pdf' target="_blank" style="color:
+                      inherit;"><h4>Resume</h4></a>
+                  </div>
+                   
+                  <br>
+              </div>
+              <div class="col-xs-12"><br></div>
+              <div class="col-xs-12 content_body">
+                  <br>
+                  <div class="text-center">
+                      <h4>Publications</h4>
+                  </div>
+                  <hr>
+                      {% bibliography %}
+              </div>
+              <div class="col-xs-12"><br></div>
+          </div>
+
+
+          <div class="col-xs-12 col-md-6">
+              <div class="col-xs-12 content_body">
+                  <br>
+
+                    {{ content }}
+
+                  <br><br>
+              </div>
+              <div class="col-xs-12"><br></div>
+          </div>
+
+
+          <div class="col-xs-12 col-md-3">
+              <div class="col-xs-12 content_body">
+                  <h4>
+                      <ul class="nav navbar-nav col-xs-12">
+                        {% assign pages_list = site.pages %}
+                        {% assign group = 'navigation' %}
+                        {% include JB/pages_list %}
+                      </ul>
+                  <h4>
+                  <br>
+              </div>
+              <div class="col-xs-12"><br></div>
+              <div class="col-xs-12 content_body">
+                <br>
+                <div class='text-center'>
+                    <h4>Project List</h4>
+                </div>
+                <hr>
+
+                {% for post in site.posts %}
+                    <h4>
+                        <a href="{{ post.url }}" style='color:inherit;'>{{ post.title }}</a>
+                    </h4>
+                    <br>
+                {% endfor %}
+
+              </div>
+              <div class="col-xs-12"><br></div>
+
+          </div>
+
+
+
 
 
     {% include JB/analytics %}
@@ -92,16 +163,6 @@
   <div class="device-sm visible-sm"></div>
   <div class="device-md visible-md"></div>
   <div class="device-lg visible-lg"></div>
-    <script>
-      var test = $('.device-xs').is(':visible');
-      if( !test ) {
-        $("#header-link-row").addClass("text-right");
-      }
-      else {
-        $("#header-link-row").removeClass("text-right");
-        $("#header-link-row").addClass("text-center");
-      }
-    </script>
 
   </body>
 </html>

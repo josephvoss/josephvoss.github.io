@@ -27,7 +27,7 @@ production_url : http://jvoss14.com
 
 excerpt_separator : "<!--excerpt-->"
 
-gems: ["jekyll-sitemap"]
+plugins: ["jekyll-sitemap","jekyll/scholar"]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -119,4 +119,27 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+
+  bibtex_filters:
+          - latex
+

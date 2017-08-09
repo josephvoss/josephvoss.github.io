@@ -4,84 +4,46 @@ title: Home
 header: Joseph Voss
 group: navigation
 ---
+<script type="text/javascript">
+
+	$(function(){
+        $("#type2-text").hide()
+        $("#type1").typed({
+          stringsElement: $("#type1-text"),
+          typeSpeed: 10,
+        });
+    });
+      function runSecond(){
+        $("#type2").typed({
+          stringsElement: $("#type2-text"),
+          typeSpeed: 10,
+	  callback: function(){
+            $("#type2").siblings('.typed-cursor').remove();
+            $("#about_me").css('visibility','visible').hide().fadeIn(1200);
+            $("#contact").css('visibility','visible').hide().fadeIn(1200);
+            $("#projects").css('visibility','visible').hide().fadeIn(1200);
+          },
+        });
+       }
+
+</script>
+
 {% include JB/setup %}
 
-<div class="container">
-  <div class="container" >
-    <div class="row">
-      <div class="col-xs-12 col-md-3">
-          <div class="col-xs-12 content_body text-center">
-              <div class='col-xs-12 text-center '>  
-           	<h3>Joseph Voss</h3>
-            <hr>
-              </div>
-
-            <div class="row text-center">
-                <div class="col-xs-3 ">
-                  <a href='mailto:josephvoss14@gmail.com' target="_blank"><i class='fa fa-envelope fa-1x' style="vertical-align: middle;"></i></a>
-                </div>
-
-                <div class="col-xs-3 ">
-                  <a href='https://github.com/josephvoss' target="_blank"><i class='fa fa-github fa-1x' style="vertical-align: middle;"></i></a>
-                </div>
-
-                <div class="col-xs-3 ">
-                  <a href='https://www.linkedin.com/in/josephvoss14' target="_blank"><i class='fa fa-linkedin fa-1x' style="vertical-align: middle;"></i></a>
-                </div>
-                <div class="col-xs-3 ">
-                  <a href='/resume.pdf' target="_blank"><i class='fa fa-file-text fa-1x' style="vertical-align: middle;"></i></a>
-                </div>
-			</div>
-            <br>
-
-Mechanical Engineering student at The University of Texas at Austin
-specializing in Mechatronics and High Performance Computing.
-            <br>
-            <br>
-
-
-          </div>
-          <div class="col-xs-12"><br></div>
-          <div class="col-xs-12 content_body text-center">
-              <br>
-              <a href='/resume.pdf' target="_blank" style="color:
-              inherit;"><h4><u>Resume</u></h4></a>
-               
-              <br>
-          </div>
-          <div class="col-xs-12"><br></div>
-          <div class="col-xs-12 content_body">
-              <br>
-              <div class="text-center">
-                  <h4>Publications</h4>
-              </div>
-              <hr>
-              hii
-                  {% bibliography %}
-          </div>
-      </div>
-      <div class="col-xs-12 col-md-6">
-          <div class="col-xs-12"><br></div>
-          <div class="col-xs-12"><br></div>
-          <div class="col-xs-12 content_body">
-              <br>
-              
-              <h3>hi</h3>
-
-              {% bibliography %}
-              <br><br>
-          </div>
-      </div>
-      <div class="col-xs-12 col-md-3">
-          <div class="col-xs-12"><br></div>
-          <div class="col-xs-12 content_body">
-              <br>
-              
-              <h3>hi</h3>
-
-              <br><br>
-          </div>
-      </div>
-    </div>
+<div class="text-center"> 
+  <noscript>
+  Hello, my name is Joseph. I'm a maker.
+  </noscript>
+  <div id="type1-text" style="display: none">
+	<p>Hello^500, my name is Joseph.^500</p>
+	<p>I'm ^500</p>
   </div>
+  <span id="type1"></span>
+  <div id="type2-text" style="display: none">
+	<p>a student.^250</p>
+	<p>an engineer.^250</p>
+	<p>a programmer.^250</p>
+	<p>a maker.^250</p>
+  </div>
+  <span id="type2"></span>
 </div>

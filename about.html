@@ -6,35 +6,48 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<div class="container">
-  <div class="row">
-    <br>
-      <img src="/assets/img/headshot.jpg" class="img-responsive img-circle
-      center-block" id="headshot_image" alt="Joseph Voss">
-    </div>
-  </div>
-  <br>
-  <div class="container content_body" style="background-color: rgba(255,255,255, .9) !important;">
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="text-center"><h2>About Me</h2></div>
-        <hr>
-        <h4>
+<div class="row">
+<br>
+  <img src="/assets/img/headshot.jpg" class="img-responsive img-circle
+  center-block" id="headshot_image" alt="Joseph Voss">
+</div>
+<br>
+<div class="row">
+  <div class="col-xs-12">
+    <div class="text-center"><h2>About Me</h2></div>
+    <hr>
+    <h4>
 Hi, my name is Joseph Voss. I'm a Mechanical Engineering student at the University of 
 Texas at Austin with a specialty in Mechatronics, but I've spent a lot of time working 
 with the Texas Advanced Computing Center and on various software problems. I'm an 
 engineer through and through, and will use whatever tool I think is necessary to solve 
 a problem, whether it be a wrench or a keyboard. If you're interested in some of the projects I've done in my spare time, click the Projects tab above. If 
-you'd like to contact me, please use one of the links above or email me at <a href="mailto:josephvoss14@gmail.com">josephvoss14@gmail.com</a>.
-        <br>
-        <br>
-        <div class="text-center">
+you'd like to contact me, please use one of the links above or email me at <a
+    href="mailto:josephvoss14@gmail.com">josephvoss14@gmail.com</a>.
+    </h4>
+    <br>
+    <div class="text-center">
+        <h4> Publications </h4>
+        <hr>
+    </div>
+    <div class="col-xs-12 justify-content">
+            {% for page in site.pages %}  
+                {% if page.entry %}
+                    <li>
+                        <h4>{{ page.entry.title }}</h4>
+                        <p>{{ page.entry.author }}</p>
+                        {% if page.entry.doi %}
+                            <p><a href="http://dx.doi.org/{{page.entry.doi}}">http://dx.doi.org/{{page.entry.doi}}</a></p>
+                        {% endif %}
+                        <p>{{ page.entry.abstract }}</p>
+                    </li>
+                {% endif %} 
+            {% endfor %}
+
+    </div>
+    <br>
+    <div class="text-center">
         <a href="/resume.pdf" style="font-size: 20px;"><b>Resume</b></a>
-        </div>
-        </h4>
-        <br>
-      </div>
     </div>
   </div>
-</div>
-
+  </div>
