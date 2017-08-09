@@ -1,136 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+---
+layout: home
+title: Home
+header: Joseph Voss
+group: navigation
+---
+{% include JB/setup %}
 
-    <title>Joseph Voss</title>
-    <meta name="author" content="Joseph Voss">
-    <meta name="description" content="Personal website of Joseph Voss, a
-    mechanical engineering student with a history of software experience. 
-    Currently a student at the University of Texas at Austin.">
-    <meta name="keywords" content="Joseph Voss,student,engineer,mechanical
-    engineering,university of texas,student cluster competition,SCC">
+<div class="container">
+  <div class="container" >
+    <div class="row">
+      <div class="col-xs-12 col-md-3">
+          <div class="col-xs-12 content_body text-center">
+              <div class='col-xs-12 text-center '>  
+           	<h3>Joseph Voss</h3>
+            <hr>
+              </div>
 
-    <!-- Enable responsive viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+            <div class="row text-center">
+                <div class="col-xs-3 ">
+                  <a href='mailto:josephvoss14@gmail.com' target="_blank"><i class='fa fa-envelope fa-1x' style="vertical-align: middle;"></i></a>
+                </div>
 
-    <!-- Font Awesome -->
-    <link href="/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+                <div class="col-xs-3 ">
+                  <a href='https://github.com/josephvoss' target="_blank"><i class='fa fa-github fa-1x' style="vertical-align: middle;"></i></a>
+                </div>
 
-    <!-- Bootstrap styles -->
-    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Optional theme -->
-    <link href="/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-    <!-- Sticky Footer -->
-    <link href="/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
-    
-    <!-- Custom styles -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all">
+                <div class="col-xs-3 ">
+                  <a href='https://www.linkedin.com/in/josephvoss14' target="_blank"><i class='fa fa-linkedin fa-1x' style="vertical-align: middle;"></i></a>
+                </div>
+                <div class="col-xs-3 ">
+                  <a href='/resume.pdf' target="_blank"><i class='fa fa-file-text fa-1x' style="vertical-align: middle;"></i></a>
+                </div>
+			</div>
+            <br>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+Mechanical Engineering student at The University of Texas at Austin
+specializing in Mechatronics and High Performance Computing.
+            <br>
+            <br>
 
-    <!-- Fav and touch icons -->
-    <link rel="shortcut icon" type="image/png"  href="images/favicon.png">
 
-    <!-- jQuery and Typed.js-->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/typed.js/dist/typed.min.js"></script>
-
-  </head>
-
-  <body>
-    <script>
-      $(function(){
-        $("#type2-text").hide()
-        $("#about_me").css('visibility', 'hidden');
-        $("#contact").css('visibility', 'hidden');
-        $("#projects").css('visibility','hidden');
-        $("#type1").typed({
-          stringsElement: $("#type1-text"),
-          typeSpeed: 10,
-	  callback: function(){
-            $("#type1").siblings('.typed-cursor').remove();
-            runSecond();
-          },
-        });
-    });
-      function runSecond(){
-        $("#type2").typed({
-          stringsElement: $("#type2-text"),
-          typeSpeed: 10,
-	  callback: function(){
-            $("#type2").siblings('.typed-cursor').remove();
-            $("#about_me").css('visibility','visible').hide().fadeIn(1200);
-            $("#contact").css('visibility','visible').hide().fadeIn(1200);
-            $("#projects").css('visibility','visible').hide().fadeIn(1200);
-          },
-        });
-       }
-
-</script>
-    <div class="container-fluid">
-      <div class="row-fluid vcenter" id="home-row">
-        <div class="text-center welcome_bar shadow"> 
-          <noscript>
-          Hello, my name is Joseph. I'm a maker.
-          </noscript>
-          <div id="type1-text" style="display: none">
-            <p>Hello^500, my name is Joseph.^500</p>
-            <p>I'm ^500</p>
           </div>
-          <span id="type1"> </span>
-          <div id="type2-text" style="display: none">
-            <p>a student.^250</p>
-            <p>an engineer.^250</p>
-            <p>a programmer.^250</p>
-            <p>a maker.^250</p>
+          <div class="col-xs-12"><br></div>
+          <div class="col-xs-12 content_body text-center">
+              <br>
+              <a href='/resume.pdf' target="_blank" style="color:
+              inherit;"><h4><u>Resume</u></h4></a>
+               
+              <br>
           </div>
-          <span id="type2"></span>
-        </div>
-        <div class="row text-center">
-          <div id="about_me" class="col-xs-12 col-sm-12 col-lg-2 col-centered home_nav_bar shadow text-centered">
-            <a href="/about.html" style="color: inherit">About Me</a>
+          <div class="col-xs-12"><br></div>
+          <div class="col-xs-12 content_body">
+              <br>
+              <div class="text-center">
+                  <h4>Publications</h4>
+              </div>
+              <hr>
+              hii
+                  {% bibliography %}
           </div>
-          <div id="contact" class="col-xs-12 col-sm-12 col-lg-2 home_nav_bar col-centered shadow">
-            <div class="col-md-4 col-lg-4 col-centered">
-              <a href='mailto:josephvoss14@gmail.com' target="_blank"><i class='fa fa-envelope fa-1g'></i></a>
-            </div>
-            <div class="col-md-4 col-lg-4 col-centered">
-              <a href='https://github.com/josephvoss' target="_blank"><i class='fa fa-github fa-1g'></i></a>
-            </div>
-            <div class="col-md-4 col-lg-4 col-centered">
-              <a href='https://www.linkedin.com/in/josephvoss14' target="_blank"><i class='fa fa-linkedin fa-1g'></i></a>
-            </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+          <div class="col-xs-12"><br></div>
+          <div class="col-xs-12"><br></div>
+          <div class="col-xs-12 content_body">
+              <br>
+              
+              <h3>hi</h3>
+
+              {% bibliography %}
+              <br><br>
           </div>
-          <div id="projects" class="col-xs-12 col-sm-12 col-lg-2 col-centered home_nav_bar shadow text-centered">
-            <a href="/projects.html" style="color: inherit">Projects</a>
+      </div>
+      <div class="col-xs-12 col-md-3">
+          <div class="col-xs-12"><br></div>
+          <div class="col-xs-12 content_body">
+              <br>
+              
+              <h3>hi</h3>
+
+              <br><br>
           </div>
-        </div>
       </div>
     </div>
-
-
-  <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-86998317-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-  </script>
-
-    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
-    <!-- Placed at the end of the document so the pages load faster -->
- <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
-  </body>
-</html>
+  </div>
+</div>
