@@ -23,12 +23,12 @@ group: navigation
     <div class="col-xs-12">
         {% for post in site.posts %}
         <li>
-            <h4>
-                <a href="{{ post.url }}" style='color:inherit;'>{{ post.title }}</a>
-            </h4>
-                <div style="padding-left: 10px">
-                {{ post.description }}
-            </div>
+        <h4>
+            <a href="{{ post.url }}" style='color:inherit;'>{{ post.title }}</a>
+        </h4>
+            <div style="padding-left: 10px">
+            {{ post.description }}
+        </div>
         </li>
         {% endfor %}
         <br>
