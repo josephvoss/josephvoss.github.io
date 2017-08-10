@@ -28,10 +28,10 @@ Usage:
       {% if group == null or group == node.group %}
       	{% if page.url == node.url %}
       	<div class="col-xs-4 text-center active"><a href="{{ BASE_PATH }}{{node.url}}" class="active"
-style='color:inherit;'>{{node.title}}</a></div>
+style='color:inherit; display:block;'>{{node.title}}</a></div>
       	{% else %}
       	<div class="col-xs-4 text-center"><a href="{{ BASE_PATH }}{{node.url}}"
-style='color:inherit;'>{{node.title}}</a></div>
+style='color:inherit; display:block;'>{{node.title}}</a></div>
       	{% endif %}
       {% endif %}
     {% endif %}
