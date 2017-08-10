@@ -4,46 +4,29 @@ title: Home
 header: Joseph Voss
 group: navigation
 ---
-<script type="text/javascript">
-
-	$(function(){
-        $("#type2-text").hide()
-        $("#type1").typed({
-          stringsElement: $("#type1-text"),
-          typeSpeed: 10,
-        });
-    });
-      function runSecond(){
-        $("#type2").typed({
-          stringsElement: $("#type2-text"),
-          typeSpeed: 10,
-	  callback: function(){
-            $("#type2").siblings('.typed-cursor').remove();
-            $("#about_me").css('visibility','visible').hide().fadeIn(1200);
-            $("#contact").css('visibility','visible').hide().fadeIn(1200);
-            $("#projects").css('visibility','visible').hide().fadeIn(1200);
-          },
-        });
-       }
-
-</script>
 
 {% include JB/setup %}
 
-<div class="text-center"> 
-  <noscript>
-  Hello, my name is Joseph. I'm a maker.
-  </noscript>
-  <div id="type1-text" style="display: none">
-	<p>Hello^500, my name is Joseph.^500</p>
-	<p>I'm ^500</p>
-  </div>
-  <span id="type1"></span>
-  <div id="type2-text" style="display: none">
-	<p>a student.^250</p>
-	<p>an engineer.^250</p>
-	<p>a programmer.^250</p>
-	<p>a maker.^250</p>
-  </div>
-  <span id="type2"></span>
-</div>
+
+ 
+<h2>
+    <span id="typed"></span>
+    <noscript>    
+        Hello, my name is Joseph. I'm a maker.
+    </noscript>    
+</h2>
+ 
+<script>
+    var options = {
+          strings: [
+            "Hello,^500  my name is Joseph.",
+            "I'm^500 a student",
+            "I'm^500 an engineer",
+            "I'm^500 a maker.^100000"],
+          typeSpeed: 50,
+          backSpeed: 50,
+          backDelay: 1000,
+          loop: true,
+            }
+    var typed = new Typed("#typed", options);
+</script>
