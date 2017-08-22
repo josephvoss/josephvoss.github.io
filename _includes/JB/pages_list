@@ -23,19 +23,21 @@ Usage:
 {% if site.JB.pages_list.provider == "custom" %}
   {% include custom/pages_list %}
 {% else %}
+<div class='row' style='text-align:center; margin: auto; word-spacing: 10px'>
   {% for node in pages_list %}
     {% if node.title != null %}
       {% if group == null or group == node.group %}
       	{% if page.url == node.url %}
-      	<div class="col-xs-4 active"><a href="{{ BASE_PATH }}{{node.url}}" class="active"
-style='color:inherit; display:block; text-align:left;'>{{node.title}}</a></div>
+        <div style="display:inline-block;"><a href="{{ BASE_PATH }}{{node.url}}" class="active" style="color:inherit; 
+text-align:center; display:inline-block">{{node.title}}</a></div>
       	{% else %}
-      	<div class="col-xs-4"><a href="{{ BASE_PATH }}{{node.url}}"
-style='color:inherit; display:block; text-align:left;'>{{node.title}}</a></div>
+      	<div style="display:inline-block;"><a href="{{ BASE_PATH }}{{node.url}}"
+style='color:inherit; display:inline-block'>{{node.title}}</a></div>
       	{% endif %}
       {% endif %}
     {% endif %}
   {% endfor %}
+</div>
 {% endif %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
