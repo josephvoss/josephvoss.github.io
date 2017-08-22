@@ -1,10 +1,19 @@
 ---
+theme :
+  name : bootstrap-3
+layout: default
 ---
 
-<h1>{{ page.entry.title }}</h1>
-<h2>{{ page.entry.author }}</h2>
+<div class='text-center'>
+    <h2>{{ page.entry.title }}</h2>
+</div>
+
+<hr>
+
+<h4>{{ page.reference }}</h4>
 <p>{{ page.entry.abstract }}</p>
 {% if page.entry.doi %}
-    <a href="http://dx.doi.org/{{entry.doi}}" style='color:inherit;'>http://dx.doi.org/{{entry.doi}}</a>
+    <a href="http://dx.doi.org/{{page.entry.doi}}">
+    http://dx.doi.org/{{page.entry.doi}}</a>
 {% endif %}
 
