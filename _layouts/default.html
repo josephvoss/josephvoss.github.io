@@ -85,7 +85,7 @@
               <div class="col-xs-12 content_body text-center">
                   <div class='nav col-centered'>
                       <a href='/resume.pdf' target="_blank" style="color:
-                      inherit;"><h4>Resume</h4></a>
+                      inherit; text-decoration:underline;"><h4>Resume</h4></a>
                   </div>
                    
                   <br>
@@ -132,7 +132,8 @@
 
                 {% for post in site.posts %}
                     <h4>
-                        <a href="{{ post.url }}" style='color:inherit;'>{{ post.title }}</a>
+                        <a href="{{ post.url }}" style='color:inherit;
+                            text-decoration:underline;'>{{ post.title }}</a>
                     </h4>
                     <br>
                 {% endfor %}

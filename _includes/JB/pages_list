@@ -29,10 +29,10 @@ Usage:
       {% if group == null or group == node.group %}
       	{% if page.url == node.url %}
         <div style="display:inline-block;"><a href="{{ BASE_PATH }}{{node.url}}" class="active" style="color:inherit; 
-text-align:center; display:inline-block">{{node.title}}</a></div>
+text-align:center; display:inline-block; text-decoration:underline;"><b>{{node.title}}</b></a></div>
       	{% else %}
       	<div style="display:inline-block;"><a href="{{ BASE_PATH }}{{node.url}}"
-style='color:inherit; display:inline-block'>{{node.title}}</a></div>
+style='color:inherit; display:inline-block; text-decoration:underline;'>{{node.title}}</a></div>
       	{% endif %}
       {% endif %}
     {% endif %}
