@@ -1,33 +1,40 @@
 ---
-layout: home
-title: Home
-header: Joseph Voss
+layout: default
+title: Projects
+header: Joseph Voss's Personal Projects
 group: navigation
 ---
-
 {% include JB/setup %}
 
+<div class="text-center"><h2>{{ page.title }}</h2></div>
 
-<div style='text-align: center;'>
-<h2>
-    <span id="typed"></span>
-    <noscript>    
-        Hello, my name is Joseph. I'm a maker.
-    </noscript>    
-</h2>
+<div style="padding-left: 10px">
+    <hr>
+    <div class="col-xs-12">
+        <img class="img-responsive center-block" style="max-width: 75%"
+        src="/assets/img/Full_car.jpg" alt="DIY RC Car">
+        <br>
+        <img class="img-responsive center-block" style="max-width: 50%"
+        src="/assets/img/Bluetooth_display.jpg"alt="Bluetooth Serial
+        Display">
+        <br>
+    </div>
+    <br>
+    <div class="col-xs-12">
+        <ul>
+            {% for post in site.posts %}
+            <li>
+            <h4>
+                <a href="{{ post.url }}" style='color:inherit; display:block;'>{{ post.title }}</a>
+            </h4>
+                <div style="padding-left: 10px">
+                {{ post.description }}
+            </div>
+            </li>
+            {% endfor %}
+        </ul>
+        <br>
+    </div>
+    <br>
 </div>
- 
-<script>
-    var options = {
-          strings: [
-            "Hello,^500  my name is Joseph.",
-            "I'm^500 a student",
-            "I'm^500 an engineer",
-            "I'm^500 a maker.^100000"],
-          typeSpeed: 50,
-          backSpeed: 50,
-          backDelay: 1000,
-          loop: true,
-            }
-    var typed = new Typed("#typed", options);
-</script>
+
