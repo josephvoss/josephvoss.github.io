@@ -12,10 +12,12 @@ layout: default
 {{ page.reference }}
 <hr>
 <div align="justify">
-<p>{{ page.entry.abstract }}</p>
+<p>
+    {{ page.entry.abstract }}
+    {% if page.entry.doi %}
+        <a href="http://dx.doi.org/{{page.entry.doi}}">
+        http://dx.doi.org/{{page.entry.doi}}</a>
+    {% endif %}
+</p>
 </div>
-{% if page.entry.doi %}
-    <a href="http://dx.doi.org/{{page.entry.doi}}">
-    http://dx.doi.org/{{page.entry.doi}}</a>
-{% endif %}
 
