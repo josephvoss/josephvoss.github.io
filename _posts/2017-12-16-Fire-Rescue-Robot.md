@@ -16,11 +16,18 @@ description: |
 <br>
 <img class="img-responsive center-block" style="max-width: 75%" src="/assets/img/back right view.png">
 <br>
+-->
 
-<br>
 <img class="img-responsive center-block" style="max-width: 75%" src="/assets/img/FEA Chassis.png">
 <br>
--->
+
+<br>
+<video class="img-responsive center-block" style="max-width: 75%"  src="/assets/img/fire-rescue.webm" autoplay loop>
+Sorry, your browser doesn't support embedded videos, 
+but don't worry, you can <a href="/assets/img/fire-rescue.webm">download it</a>
+and watch it with your favorite video player!
+</video>
+<br>
 
 In Fall of 2017 I took the Mechanical Engineering Design and Methodology course,
 as a precursor to Senior Design the next semester. This course was structured to
@@ -51,7 +58,7 @@ through a heatmap.
 
 The full report describing the robot in detail and the design methodology behind
 it is linked [here](/assets/img/ME_366J_Final-Report.pdf).
-Linked above are two images showing the operation of the
+Linked above is a video showing the operation of the
 robot from the client page and the robot itself in use. The software used to
 control the robot is hosted on Github
 [here](https://github.com/josephvoss/ME-366J_Fire-Rescue/).
