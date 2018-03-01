@@ -18,7 +18,7 @@ description: |
 <br>
 -->
 <br>
-<video class="img-responsive center-block" style="max-width: 75%"  src="/assets/img/fire-rescue.webm" autoplay loop>
+<video class="img-responsive center-block" style="max-width: 75%"  src="/assets/img/fire-rescue.webm" type="video/webm" controls autoplay loop>
 Sorry, your browser doesn't support embedded videos, 
 but don't worry, you can <a href="/assets/img/fire-rescue.webm">download it</a>
 and watch it with your favorite video player!
