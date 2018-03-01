@@ -16,7 +16,7 @@ src="/assets/img/grafana_speedtest.png">
 <br>
 
 As part of the Student Cluster Competition team with TACC (details 
-[here](http://jvoss14.com/2016/11/18/Student-Cluster-Competition)), I
+[here](http://josephvoss.com/2016/11/18/Student-Cluster-Competition)), I
 created a power monitoring tool using graphite and grafana. During this time I
 realized how powerful a tool like grafana is for sharing and cleaning
 visualizing data and sought to find other applications for it. Recently I
@@ -32,9 +32,9 @@ Raspberry Pi, the data is off by a factor of at least 10. I'm searching for othe
 ways to obtain an accurate speedtest, but for now this provides a somewhat
 accurate relative view to show drops in network connectivity.*
 
-[Link to Grafana Server](http://view.jvoss14.com/)
+[Link to Grafana Server](http://view.josephvoss.com/)
 
-[Link to Network Information](http://view.jvoss14.com/dashboard/db/speedtest)
+[Link to Network Information](http://view.josephvoss.com/dashboard/db/speedtest)
 
 [Link to System Usage
-Information](http://view.jvoss14.com/dashboard/db/system-usage)
+Information](http://view.josephvoss.com/dashboard/db/inspiron)
