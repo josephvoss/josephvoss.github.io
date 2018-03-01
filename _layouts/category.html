@@ -6,14 +6,16 @@ layout: page
 {% endunless %}
 
 <div style="padding-left: 10px">
-{% for post in site.categories[page.category] %}
-<li>
-    <h4>
-    <a href="{{ post.url | prepend: site.base_url}}">{{ post.title }}</a>
-    </h4>
-    <div style="padding-left: 10px">
-        {{ post.description }}
-    </div>
-</li>
-{% endfor %}
+<ul>
+    {% for post in site.categories[page.category] %}
+    <li>
+        <h4>
+        <a href="{{ post.url | prepend: site.base_url}}">{{ post.title }}</a>
+        </h4>
+        <div style="padding-left: 10px">
+            {{ post.description }}
+        </div>
+    </li>
+    {% endfor %}
+</ul>
 </div>

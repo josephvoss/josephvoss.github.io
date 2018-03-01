@@ -17,10 +17,6 @@ description: |
 <img class="img-responsive center-block" style="max-width: 75%" src="/assets/img/back right view.png">
 <br>
 -->
-
-<img class="img-responsive center-block" style="max-width: 75%" src="/assets/img/FEA Chassis.png">
-<br>
-
 <br>
 <video class="img-responsive center-block" style="max-width: 75%"  src="/assets/img/fire-rescue.webm" autoplay loop>
 Sorry, your browser doesn't support embedded videos, 
@@ -62,6 +58,14 @@ Linked above is a video showing the operation of the
 robot from the client page and the robot itself in use. The software used to
 control the robot is hosted on Github
 [here](https://github.com/josephvoss/ME-366J_Fire-Rescue/).
+
+<br>
+<img class="img-responsive center-block" style="max-width: 75%" src="/assets/img/IMG_20180228_210610.jpg">
+<br>
+<img class="img-responsive center-block" style="max-width: 75%" src="/assets/img/IMG_20180228_210401.jpg">
+<br>
+<img class="img-responsive center-block" style="max-width: 75%" src="/assets/img/IMG_20180228_210450.jpg">
+
 
 <!--
 <br>
