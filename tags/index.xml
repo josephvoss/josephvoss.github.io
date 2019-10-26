@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My New Hugo Site</title>
-    <link>josephvoss.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Dec 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="josephvoss.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>academic</title>
-      <link>josephvoss.com/tags/academic/</link>
+      <link>/tags/academic/</link>
       <pubDate>Sat, 16 Dec 2017 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/tags/academic/</guid>
+      <guid>/tags/academic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mechanical</title>
-      <link>josephvoss.com/tags/mechanical/</link>
+      <link>/tags/mechanical/</link>
       <pubDate>Sat, 16 Dec 2017 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/tags/mechanical/</guid>
+      <guid>/tags/mechanical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
-      <link>josephvoss.com/tags/software/</link>
+      <link>/tags/software/</link>
       <pubDate>Sat, 16 Dec 2017 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/tags/software/</guid>
+      <guid>/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>high-performance-computing</title>
-      <link>josephvoss.com/tags/high-performance-computing/</link>
+      <link>/tags/high-performance-computing/</link>
       <pubDate>Fri, 18 Nov 2016 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/tags/high-performance-computing/</guid>
+      <guid>/tags/high-performance-computing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FPGA</title>
-      <link>josephvoss.com/tags/fpga/</link>
+      <link>/tags/fpga/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/tags/fpga/</guid>
+      <guid>/tags/fpga/</guid>
       <description></description>
     </item>
     
     <item>
       <title>electrical</title>
-      <link>josephvoss.com/tags/electrical/</link>
+      <link>/tags/electrical/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/tags/electrical/</guid>
+      <guid>/tags/electrical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>peripheral</title>
-      <link>josephvoss.com/tags/peripheral/</link>
+      <link>/tags/peripheral/</link>
       <pubDate>Sun, 01 Mar 2015 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/tags/peripheral/</guid>
+      <guid>/tags/peripheral/</guid>
       <description></description>
     </item>
     
     <item>
       <title>chemistry</title>
-      <link>josephvoss.com/tags/chemistry/</link>
+      <link>/tags/chemistry/</link>
       <pubDate>Tue, 01 Apr 2014 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/tags/chemistry/</guid>
+      <guid>/tags/chemistry/</guid>
       <description></description>
     </item>
     

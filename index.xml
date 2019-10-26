@@ -2,103 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>josephvoss.com/</link>
+    <link>/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Dec 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="josephvoss.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fire Rescue Robot</title>
-      <link>josephvoss.com/post/fire-rescue-robot/</link>
+      <link>/post/fire-rescue-robot/</link>
       <pubDate>Sat, 16 Dec 2017 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/post/fire-rescue-robot/</guid>
+      <guid>/post/fire-rescue-robot/</guid>
       <description>-- 
 Sorry, your browser doesn&amp;rsquo;t support embedded videos, but don&amp;rsquo;t worry, you can download it and watch it with your favorite video player!  In Fall of 2017 I took the Mechanical Engineering Design and Methodology course, as a precursor to Senior Design the next semester. This course was structured to teach methods through hands-on design work for a project throughout the semester. The project for this semester was to create a fire rescue robot with the goal of entering a high-temperature environment and locating an injured pet.</description>
     </item>
     
     <item>
       <title>Hand Machined Vice</title>
-      <link>josephvoss.com/post/hand-machined-vice/</link>
+      <link>/post/hand-machined-vice/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/post/hand-machined-vice/</guid>
+      <guid>/post/hand-machined-vice/</guid>
       <description>In Fall of 2017 I took a course in Machine tool operation. This class met for 6 hours a week in the machine shop on campus and taught basic metalworking skills for use with manual lathes and mills, along with hands on experience in casting parts and generating G-Code to program CNC machines. After creating a couple practice parts using the mill and lathe we each constructed a moveable vice from scratch.</description>
     </item>
     
     <item>
       <title>Homemade RC Car</title>
-      <link>josephvoss.com/post/homemade-rc-car/</link>
+      <link>/post/homemade-rc-car/</link>
       <pubDate>Fri, 05 May 2017 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/post/homemade-rc-car/</guid>
+      <guid>/post/homemade-rc-car/</guid>
       <description>For the final project in Machine Elements we were tasked to design and build a remote-controlled car in groups of five. These cars would then be raced against each other at the end of the semester. This project was broken into three main components that we would complete throughout the course: the chassis, drive-train, and steering. These components only served to split up the deliverables across three months; the design of the car by necessity was iterative, meaning that we had to reconsider our exisiting designs once we found something we had previously planned wouldn&amp;rsquo;t work as intented.</description>
     </item>
     
     <item>
       <title>Grafana Visualization</title>
-      <link>josephvoss.com/post/grafana-visualization/</link>
+      <link>/post/grafana-visualization/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/post/grafana-visualization/</guid>
+      <guid>/post/grafana-visualization/</guid>
       <description>As part of the Student Cluster Competition team with TACC (details here), I created a power monitoring tool using graphite and grafana. During this time I realized how powerful a tool like grafana is for sharing and cleaning visualizing data and sought to find other applications for it. Recently I installed and configured both graphite and grafana to run on my local Raspberry Pi server. Currently this is used to display my network connectivity and system usage information, but I&amp;rsquo;m looking for other applications such as temperature logging, social media data analysis, etc.</description>
     </item>
     
     <item>
       <title>Student Cluster Competition</title>
-      <link>josephvoss.com/post/student-cluster-competition/</link>
+      <link>/post/student-cluster-competition/</link>
       <pubDate>Fri, 18 Nov 2016 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/post/student-cluster-competition/</guid>
+      <guid>/post/student-cluster-competition/</guid>
       <description>During my parallel programming class I heard of an opportunity for students to build and configure a high performance computing cluster. I applied to join the six-person team and (surprisingly) was accepted. Over the next few months we practiced running applications on Texas Advanced Computing Center (TACC)&amp;rsquo;s systems, designed the hardware configuration of our cluster, and learned about Linux system management and control. My main tasks were running and tuning High Performance Linpack, writing scripts to automatically build, run, and generate matplotlib graphs that analyzed the performance of several applications.</description>
     </item>
     
     <item>
       <title>Fluid Flow Simulation</title>
-      <link>josephvoss.com/post/fluid-flow-simulation/</link>
+      <link>/post/fluid-flow-simulation/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/post/fluid-flow-simulation/</guid>
+      <guid>/post/fluid-flow-simulation/</guid>
       <description>Solved velocity and pressure for flow through a 2 dimensional channel For the final project in my Parallel Programming class we were tasked with solving some problem using MPI on the HPC systems at Texas Advanced Computing Center (TACC). I was taking Fluid Mechanics at the same time, and chose to replicate one of the labs we had completed about the development of laminar flow. With the MPI C++ bindings, I wrote a basic simulation which depicted the flow of fluid through a two dimensional channel in the terms of pressure and velocity of the fluid elements in a mesh.</description>
     </item>
     
     <item>
       <title>Vindicator CPU</title>
-      <link>josephvoss.com/post/vindicator-cpu/</link>
+      <link>/post/vindicator-cpu/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/post/vindicator-cpu/</guid>
+      <guid>/post/vindicator-cpu/</guid>
       <description>During my Mechanical Engineering Computational Methods class, the professor explained the basic operation of a processor. This re-ignited my interest in the function of low level logic gate operations. Initially I used logic-gate modeling software to try and design basic components like an Arithmetic Logic Unit, but after making some progress I moved to designing these components in Verilog so it could be ported to actual hardware on an FPGA board.</description>
     </item>
     
     <item>
       <title>Portable Bluetooth Display</title>
-      <link>josephvoss.com/post/portable-bluetooth-display/</link>
+      <link>/post/portable-bluetooth-display/</link>
       <pubDate>Sun, 01 Mar 2015 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/post/portable-bluetooth-display/</guid>
+      <guid>/post/portable-bluetooth-display/</guid>
       <description>In a similar vein to the LED projector I attempted to build earlier, I wanted to create a portable text-only display. This time instead of creating a display from scratch, a small TFT display driven by an Arduino Nano was used to easily display the text. The data was sent to the display over a bluetooth connection from a Raspberry Pi. This Raspberry Pi was configured to connect to a bluetooth keyboard on start up, and run a small script which captured all input and piped it into a serial console hosted on a second bluetooth connection.</description>
     </item>
     
     <item>
       <title>Rotating Disk Projector</title>
-      <link>josephvoss.com/post/rotating-disk-projector/</link>
+      <link>/post/rotating-disk-projector/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/post/rotating-disk-projector/</guid>
+      <guid>/post/rotating-disk-projector/</guid>
       <description>After initially getting experience with the Linux command line through my experience working at Applied Research Laboratories over the Summer of 2014, I realized how much work could be done with a simple text-user-interface. Simultaneously, I wanted to have an ultra-portable PC, and realized that computing hardware was able to be minimized easily. The largest components of portable systems were the interfaces: the display and keyboard. Several portable keyboard options exist, but there&amp;rsquo;s no inexpensive portable display.</description>
     </item>
     
     <item>
       <title>Vanadium Dioxide Logic Gates</title>
-      <link>josephvoss.com/post/vanadium-dioxide-logic-gates/</link>
+      <link>/post/vanadium-dioxide-logic-gates/</link>
       <pubDate>Tue, 01 Apr 2014 00:00:00 -0600</pubDate>
       
-      <guid>josephvoss.com/post/vanadium-dioxide-logic-gates/</guid>
+      <guid>/post/vanadium-dioxide-logic-gates/</guid>
       <description>In high school I became fascinated with the operation of logic gates, and wanted to build a basic adder circuit, but in a new and innovative way. From my chemistry experience, I had learned about the metamaterial Vanadium Dioxide and it&amp;rsquo;s thermo-chromatic triggering properties. By following the manufacturing procedure outlined in Deki, Aoi, &amp;amp; Kajinami&amp;rsquo;s paper, I designed a set of optical logic gates using the Vanadium Dioxide thin films that would produce binary levels of infrared light.</description>
     </item>
     
@@ -106,10 +106,10 @@ Sorry, your browser doesn&amp;rsquo;t support embedded videos, but don&amp;rsquo
       <title>Automated System Health and Performance Benchmarking Platform: High
 Performance Computing Test Harness with Jenkins
 </title>
-      <link>josephvoss.com/publication/flat17/</link>
+      <link>/publication/flat17/</link>
       <pubDate>Wed, 31 Dec 1969 19:33:37 -0500</pubDate>
       
-      <guid>josephvoss.com/publication/flat17/</guid>
+      <guid>/publication/flat17/</guid>
       <description>Datacenters have a growing need to monitor and maintain complicated computing machines and verify their systems are functioning at a high level. In order to achieve this goal, it is critical that administrators are able to readily verify basic user operations and survey system performance, quickly discerning when a configuration is sub-optimal. We have created a system health and performance monitoring tool that enables tracking both health and historical performance. The tool presents this data visually and enables the identification of realized and potential problems intuitively.</description>
     </item>
     
@@ -117,19 +117,19 @@ Performance Computing Test Harness with Jenkins
       <title>Student Cluster Competition 2016 Reproducibility Challenge: Genomic
 partitioning with ParConnect
 </title>
-      <link>josephvoss.com/publication/ababao2017/</link>
+      <link>/publication/ababao2017/</link>
       <pubDate>Wed, 31 Dec 1969 19:33:37 -0500</pubDate>
       
-      <guid>josephvoss.com/publication/ababao2017/</guid>
+      <guid>/publication/ababao2017/</guid>
       <description>As part of a reproducibility initiative from the Student Cluster Competition 2016, specific results and trends presented in “A parallel connectivity algorithm for de Bruijn graphs in metagenomic applications” were similarly produced and verified. The general lack of reproducibility within the scientific community is a known issue, but few have the time, resources, or incentives to fully address it. Motivation for reproducibility resides in the need to independently validate previous research claims and test the difficulty or ease with which these claims may be reasserted.</description>
     </item>
     
     <item>
       <title>About Me</title>
-      <link>josephvoss.com/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>josephvoss.com/about/</guid>
+      <guid>/about/</guid>
       <description>Hi, my name is Joseph. I&amp;rsquo;m a HPC Systems Engineer at Oak Ridge National Labs with a background in mechanical engineering. I&amp;rsquo;m an engineer through and through, and will use whatever tool I think is necessary to solve a problem, whether it be a wrench or a keyboard. If you&amp;rsquo;re interested in some of the projects I&amp;rsquo;ve done in my spare time, click the Projects tab above. If you&amp;rsquo;d like to contact me, please use one of the links above or email me at jvoss@josephvoss.</description>
     </item>
     
