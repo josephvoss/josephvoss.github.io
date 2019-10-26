@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>chemistry on My New Hugo Site</title>
-    <link>example.com/tags/chemistry/</link>
+    <link>josephvoss.com/tags/chemistry/</link>
     <description>Recent content in chemistry on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Apr 2014 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="example.com/tags/chemistry/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="josephvoss.com/tags/chemistry/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Vanadium Dioxide Logic Gates</title>
-      <link>example.com/post/vanadium-dioxide-logic-gates/</link>
+      <link>josephvoss.com/post/vanadium-dioxide-logic-gates/</link>
       <pubDate>Tue, 01 Apr 2014 00:00:00 -0600</pubDate>
       
-      <guid>example.com/post/vanadium-dioxide-logic-gates/</guid>
+      <guid>josephvoss.com/post/vanadium-dioxide-logic-gates/</guid>
       <description>In high school I became fascinated with the operation of logic gates, and wanted to build a basic adder circuit, but in a new and innovative way. From my chemistry experience, I had learned about the metamaterial Vanadium Dioxide and it&amp;rsquo;s thermo-chromatic triggering properties. By following the manufacturing procedure outlined in Deki, Aoi, &amp;amp; Kajinami&amp;rsquo;s paper, I designed a set of optical logic gates using the Vanadium Dioxide thin films that would produce binary levels of infrared light.</description>
     </item>
     

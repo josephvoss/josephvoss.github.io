@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>electrical on My New Hugo Site</title>
-    <link>example.com/tags/electrical/</link>
+    <link>josephvoss.com/tags/electrical/</link>
     <description>Recent content in electrical on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Dec 2015 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="example.com/tags/electrical/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="josephvoss.com/tags/electrical/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Vindicator CPU</title>
-      <link>example.com/post/vindicator-cpu/</link>
+      <link>josephvoss.com/post/vindicator-cpu/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 -0600</pubDate>
       
-      <guid>example.com/post/vindicator-cpu/</guid>
+      <guid>josephvoss.com/post/vindicator-cpu/</guid>
       <description>During my Mechanical Engineering Computational Methods class, the professor explained the basic operation of a processor. This re-ignited my interest in the function of low level logic gate operations. Initially I used logic-gate modeling software to try and design basic components like an Arithmetic Logic Unit, but after making some progress I moved to designing these components in Verilog so it could be ported to actual hardware on an FPGA board.</description>
     </item>
     
     <item>
       <title>Portable Bluetooth Display</title>
-      <link>example.com/post/portable-bluetooth-display/</link>
+      <link>josephvoss.com/post/portable-bluetooth-display/</link>
       <pubDate>Sun, 01 Mar 2015 00:00:00 -0600</pubDate>
       
-      <guid>example.com/post/portable-bluetooth-display/</guid>
+      <guid>josephvoss.com/post/portable-bluetooth-display/</guid>
       <description>In a similar vein to the LED projector I attempted to build earlier, I wanted to create a portable text-only display. This time instead of creating a display from scratch, a small TFT display driven by an Arduino Nano was used to easily display the text. The data was sent to the display over a bluetooth connection from a Raspberry Pi. This Raspberry Pi was configured to connect to a bluetooth keyboard on start up, and run a small script which captured all input and piped it into a serial console hosted on a second bluetooth connection.</description>
     </item>
     
     <item>
       <title>Rotating Disk Projector</title>
-      <link>example.com/post/rotating-disk-projector/</link>
+      <link>josephvoss.com/post/rotating-disk-projector/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 -0600</pubDate>
       
-      <guid>example.com/post/rotating-disk-projector/</guid>
+      <guid>josephvoss.com/post/rotating-disk-projector/</guid>
       <description>After initially getting experience with the Linux command line through my experience working at Applied Research Laboratories over the Summer of 2014, I realized how much work could be done with a simple text-user-interface. Simultaneously, I wanted to have an ultra-portable PC, and realized that computing hardware was able to be minimized easily. The largest components of portable systems were the interfaces: the display and keyboard. Several portable keyboard options exist, but there&amp;rsquo;s no inexpensive portable display.</description>
     </item>
     
     <item>
       <title>Vanadium Dioxide Logic Gates</title>
-      <link>example.com/post/vanadium-dioxide-logic-gates/</link>
+      <link>josephvoss.com/post/vanadium-dioxide-logic-gates/</link>
       <pubDate>Tue, 01 Apr 2014 00:00:00 -0600</pubDate>
       
-      <guid>example.com/post/vanadium-dioxide-logic-gates/</guid>
+      <guid>josephvoss.com/post/vanadium-dioxide-logic-gates/</guid>
       <description>In high school I became fascinated with the operation of logic gates, and wanted to build a basic adder circuit, but in a new and innovative way. From my chemistry experience, I had learned about the metamaterial Vanadium Dioxide and it&amp;rsquo;s thermo-chromatic triggering properties. By following the manufacturing procedure outlined in Deki, Aoi, &amp;amp; Kajinami&amp;rsquo;s paper, I designed a set of optical logic gates using the Vanadium Dioxide thin films that would produce binary levels of infrared light.</description>
     </item>
     

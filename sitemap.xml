@@ -3,148 +3,148 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>example.com/post/fire-rescue-robot/</loc>
+    <loc>josephvoss.com/post/fire-rescue-robot/</loc>
     <lastmod>2017-12-16T00:00:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>example.com/</loc>
-    <lastmod>2017-12-16T00:00:00-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>example.com/post/</loc>
+    <loc>josephvoss.com/</loc>
     <lastmod>2017-12-16T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>example.com/tags/</loc>
+    <loc>josephvoss.com/post/</loc>
     <lastmod>2017-12-16T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>example.com/tags/academic/</loc>
+    <loc>josephvoss.com/tags/</loc>
     <lastmod>2017-12-16T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>example.com/tags/mechanical/</loc>
+    <loc>josephvoss.com/tags/academic/</loc>
     <lastmod>2017-12-16T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>example.com/tags/software/</loc>
+    <loc>josephvoss.com/tags/mechanical/</loc>
     <lastmod>2017-12-16T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>example.com/post/hand-machined-vice/</loc>
+    <loc>josephvoss.com/tags/software/</loc>
+    <lastmod>2017-12-16T00:00:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>josephvoss.com/post/hand-machined-vice/</loc>
     <lastmod>2017-12-14T00:00:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>example.com/post/homemade-rc-car/</loc>
+    <loc>josephvoss.com/post/homemade-rc-car/</loc>
     <lastmod>2017-05-05T00:00:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>example.com/post/grafana-visualization/</loc>
+    <loc>josephvoss.com/post/grafana-visualization/</loc>
     <lastmod>2017-02-27T00:00:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>example.com/post/student-cluster-competition/</loc>
+    <loc>josephvoss.com/post/student-cluster-competition/</loc>
     <lastmod>2016-11-18T00:00:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>example.com/tags/high-performance-computing/</loc>
+    <loc>josephvoss.com/tags/high-performance-computing/</loc>
     <lastmod>2016-11-18T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>example.com/post/fluid-flow-simulation/</loc>
+    <loc>josephvoss.com/post/fluid-flow-simulation/</loc>
     <lastmod>2016-05-01T00:00:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>example.com/tags/fpga/</loc>
+    <loc>josephvoss.com/tags/fpga/</loc>
     <lastmod>2015-12-01T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>example.com/post/vindicator-cpu/</loc>
+    <loc>josephvoss.com/post/vindicator-cpu/</loc>
     <lastmod>2015-12-01T00:00:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>example.com/tags/electrical/</loc>
+    <loc>josephvoss.com/tags/electrical/</loc>
     <lastmod>2015-12-01T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>example.com/post/portable-bluetooth-display/</loc>
+    <loc>josephvoss.com/post/portable-bluetooth-display/</loc>
     <lastmod>2015-03-01T00:00:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>example.com/tags/peripheral/</loc>
+    <loc>josephvoss.com/tags/peripheral/</loc>
     <lastmod>2015-03-01T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>example.com/post/rotating-disk-projector/</loc>
+    <loc>josephvoss.com/post/rotating-disk-projector/</loc>
     <lastmod>2014-12-01T00:00:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>example.com/post/vanadium-dioxide-logic-gates/</loc>
+    <loc>josephvoss.com/post/vanadium-dioxide-logic-gates/</loc>
     <lastmod>2014-04-01T00:00:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>example.com/tags/chemistry/</loc>
+    <loc>josephvoss.com/tags/chemistry/</loc>
     <lastmod>2014-04-01T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>example.com/publication/flat17/</loc>
+    <loc>josephvoss.com/publication/flat17/</loc>
     <lastmod>1969-12-31T19:33:37-05:00</lastmod>
   </url>
   
   <url>
-    <loc>example.com/publication/</loc>
+    <loc>josephvoss.com/publication/</loc>
     <lastmod>1969-12-31T19:33:37-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>example.com/publication/ababao2017/</loc>
+    <loc>josephvoss.com/publication/ababao2017/</loc>
     <lastmod>1969-12-31T19:33:37-05:00</lastmod>
   </url>
   
   <url>
-    <loc>example.com/about/</loc>
+    <loc>josephvoss.com/about/</loc>
   </url>
   
   <url>
-    <loc>example.com/categories/</loc>
+    <loc>josephvoss.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>example.com/top-level/</loc>
+    <loc>josephvoss.com/top-level/</loc>
     <priority>0</priority>
   </url>
   
