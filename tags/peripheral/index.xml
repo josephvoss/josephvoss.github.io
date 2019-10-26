@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>peripheral on My New Hugo Site</title>
+    <link>example.com/tags/peripheral/</link>
+    <description>Recent content in peripheral on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2015 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="example.com/tags/peripheral/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Portable Bluetooth Display</title>
+      <link>example.com/post/portable-bluetooth-display/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 -0600</pubDate>
+      
+      <guid>example.com/post/portable-bluetooth-display/</guid>
+      <description>In a similar vein to the LED projector I attempted to build earlier, I wanted to create a portable text-only display. This time instead of creating a display from scratch, a small TFT display driven by an Arduino Nano was used to easily display the text. The data was sent to the display over a bluetooth connection from a Raspberry Pi. This Raspberry Pi was configured to connect to a bluetooth keyboard on start up, and run a small script which captured all input and piped it into a serial console hosted on a second bluetooth connection.</description>
+    </item>
+    
+    <item>
+      <title>Rotating Disk Projector</title>
+      <link>example.com/post/rotating-disk-projector/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 -0600</pubDate>
+      
+      <guid>example.com/post/rotating-disk-projector/</guid>
+      <description>After initially getting experience with the Linux command line through my experience working at Applied Research Laboratories over the Summer of 2014, I realized how much work could be done with a simple text-user-interface. Simultaneously, I wanted to have an ultra-portable PC, and realized that computing hardware was able to be minimized easily. The largest components of portable systems were the interfaces: the display and keyboard. Several portable keyboard options exist, but there&amp;rsquo;s no inexpensive portable display.</description>
+    </item>
+    
+  </channel>
+</rss>

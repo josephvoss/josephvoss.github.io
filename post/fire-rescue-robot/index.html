@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="example.com/css/oldport.css">
+<body>
+      <div class="container" >
+        <div class="row" >
+          <div class="col-12 col-lg-3 content_body"><div class="whitebox col-12 text-center">
+  <div class='col-xs-12 text-center '>  
+    <div class='col-xs-12 text-center '>  
+      <h3 class='textbox'>Joseph Voss</h3>
+      <hr>
+    </div>
+    <div class="row">
+      
+      <div class="col">
+        <a href='mailto:jvoss@josephvoss.com' target="_blank"><i class='fa fa-envelope fa-1x' style="vertical-align: middle; font-size: 1.5em;"></i></a>
+      </div>
+      
+      <div class="col">
+        <a href='https://github.com/josephvoss' target="_blank"><i class='fa fa-github fa-1x' style="vertical-align: middle; font-size: 1.5em;"></i></a>
+      </div>
+      
+      <div class="col">
+        <a href='https://www.linkedin.com/in/josephvoss14' target="_blank"><i class='fa fa-linkedin fa-1x' style="vertical-align: middle; font-size: 1.5em;"></i></a>
+      </div>
+      
+      <div class="col">
+        <a href='/resume.pdf' target="_blank"><i class='fa fa-file-text fa-1x' style="vertical-align: middle; font-size: 1.5em;"></i></a>
+      </div>
+      
+
+      
+    </div>
+  </div>
+  <br>
+HPC Systems Engineer at Oak Ridge National Laboratory with a background in Mechanical Engineering 
+
+  <br>
+  <br>
+</div>
+<div class='gap col-xs-12'></div>  
+
+<div class="whitebox col-12" style='word-wrap: break-word;'>
+  <div class="row textbox text-center" style='padding-top: .33rem'>
+    
+    <div class='col'><a class='link' href="example.com/about">About</a></div>
+    
+    <div class='col'><a class='link' href="example.com/">Projects</a></div>
+    
+    <div class='col'><a class='link' href="example.com/resume.html">Resume</a></div>
+    
+  </div>
+</div>
+<div class='gap col-xs-12'></div>  
+</div>
+          <div class="col-12 col-lg-6 content_body">
+            <div class="whitebox col">
+              <div id="content">
+<div class="textbox">
+  <h2 id="title" class="text-center textbox" >Fire Rescue Robot</h2>
+  <hr>
+  <div>
+    <article id="content">
+      12-16-2017
+      <br>
+      <br>
+      <!--
+<br>
+<img class="img-responsive center_img" style="max-width: 75%" src="/img/back right view.png">
+<br>
+-->
+
+<p><br>
+<video class="img-responsive center_img" style="max-width: 75%"  src="/img/fire-rescue.webm" type="video/webm" controls autoplay loop>
+Sorry, your browser doesn&rsquo;t support embedded videos,
+but don&rsquo;t worry, you can <a href="/img/fire-rescue.webm">download it</a>
+and watch it with your favorite video player!
+</video>
+<br></p>
+
+<p>In Fall of 2017 I took the Mechanical Engineering Design and Methodology course,
+as a precursor to Senior Design the next semester. This course was structured to
+teach methods through hands-on design work for a project throughout the
+semester. The project for this semester was to create a fire rescue robot with
+the goal of entering a high-temperature environment and locating an injured
+pet. We used several concept generation methods to brainstorm subsystems for the
+three main subsystems: thermal protection, movement, and control. The leading
+concepts for each of these systems was then prototyped and integrated together
+to create a beta prototype of the full vehicle. The robot was placed in a 90
+degree Celcius oven to test it&rsquo;s performance in high temperature environment.
+Afterwards the robot was placed in a dark room, and was remote controlled to
+identify the pet based off the heat differential between it and the ambient
+temperature.</p>
+
+<p>For this project I was responsible for the entirety of electronic and software
+systems. The control board of the robot was an ESP8266, an inexpensive
+microcontroller with a on-board wifi chip. We used ultrasonic sensors for object
+avoidance and an 8x8 thermal imaging camera to identify the pet. Using the
+Arduino bootloader, I developed software which hosted an HTML webpage that was
+used for remote control of the robot. The user would login to the access point
+from the ESP8266 and open the web page in a browser. From the web page the
+thermal and ultrasonic sensors could be read. Additionally movement commands
+could be sent to the robot. Real-time bidirectional communication was achieved
+through a WebSocket server hosted on the microcontroller. Sensor data was
+decoded in Javascript by the client webpage and the thermal data was displayed
+through a heatmap.</p>
+
+<p>The full report describing the robot in detail and the design methodology behind
+it is linked <a href="/assets/img/ME_366J_Final-Report.pdf">here</a>.
+Linked above is a video showing the operation of the
+robot from the client page and the robot itself in use. The software used to
+control the robot is hosted on Github
+<a href="https://github.com/josephvoss/ME-366J_Fire-Rescue/">here</a>.</p>
+
+<p><br>
+<img class="img-responsive center_img" style="max-width: 75%" src="/img/IMG_20180228_210610.jpg">
+<br>
+<img class="img-responsive center_img" style="max-width: 75%" src="/img/IMG_20180228_210401.jpg">
+<br>
+<img class="img-responsive center_img" style="max-width: 75%" src="/img/IMG_20180228_210450.jpg"></p>
+
+<!--
+<br>
+<img class="img-responsive center_img" src="/img/Full_car.jpg">
+<br>
+-->
+
+    </article>
+  </div>
+<aside id="meta">
+    <div>
+    <section>
+    </section>
+    
+    
+    Tags:
+    <ul id="tags">
+      
+        <li> <a class="link" href="example.com/tagsmechanical">mechanical</a> </li>
+      
+        <li> <a class="link" href="example.com/tagsacademic">academic</a> </li>
+      
+        <li> <a class="link" href="example.com/tagssoftware">software</a> </li>
+      
+    </ul>
+    
+    </div>
+    <div class='row'>
+      <div class='col'>
+        
+          Previous post: <a class="previous link" href="example.com/post/hand-machined-vice/"> Hand Machined Vice</a>
+        
+      </div>
+      <div class='col'>
+      <div>
+      <div class='col' style="text-align: right;">
+        
+      </div>
+    </div>
+</aside>
+</div>
+
+              </div>
+            </div>
+            <div class='gap col-xs-12'></div>  
+          </div>
+          <div class="col-12 col-lg-3 content_body"><div class="whitebox textbox col-12">
+  <div class="text-center">
+    <h4>Posts</h4>
+    <hr>
+  </div>
+  <ul>
+    
+    <li><a class='link' href='example.com/post/fire-rescue-robot/'>Fire Rescue Robot</a></li>
+    
+    <li><a class='link' href='example.com/post/hand-machined-vice/'>Hand Machined Vice</a></li>
+    
+    <li><a class='link' href='example.com/post/homemade-rc-car/'>Homemade RC Car</a></li>
+    
+    <li><a class='link' href='example.com/post/grafana-visualization/'>Grafana Visualization</a></li>
+    
+    <li><a class='link' href='example.com/post/student-cluster-competition/'>Student Cluster Competition</a></li>
+    
+    <li><a class='link' href='example.com/post/fluid-flow-simulation/'>Fluid Flow Simulation</a></li>
+    
+    <li><a class='link' href='example.com/post/vindicator-cpu/'>Vindicator CPU</a></li>
+    
+    <li><a class='link' href='example.com/post/portable-bluetooth-display/'>Portable Bluetooth Display</a></li>
+    
+    <li><a class='link' href='example.com/post/rotating-disk-projector/'>Rotating Disk Projector</a></li>
+    
+    <li><a class='link' href='example.com/post/vanadium-dioxide-logic-gates/'>Vanadium Dioxide Logic Gates</a></li>
+    
+  </ul>
+
+</div>
+<div class='gap col-xs-12'></div>  
+<div class="whitebox textbox col-12" style='word-wrap: break-word;'>
+  <div class="text-center">
+    <h4>Publications</h4>
+  </div>
+  <hr>
+  <ul>
+     <li><a class='link' href='example.com/publication/flat17/'>Automated System Health and Performance Benchmarking Platform: High
+Performance Computing Test Harness with Jenkins
+</a></li>
+     <li><a class='link' href='example.com/publication/ababao2017/'>Student Cluster Competition 2016 Reproducibility Challenge: Genomic
+partitioning with ParConnect
+</a></li>
+    
+  </ul>
+</div>
+</div>
+        </div>
+      </div><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on My New Hugo Site</title>
+    <link>example.com/publication/</link>
+    <description>Recent content in Publications on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 1969 19:33:37 -0500</lastBuildDate>
+    
+	<atom:link href="example.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automated System Health and Performance Benchmarking Platform: High
+Performance Computing Test Harness with Jenkins
+</title>
+      <link>example.com/publication/flat17/</link>
+      <pubDate>Wed, 31 Dec 1969 19:33:37 -0500</pubDate>
+      
+      <guid>example.com/publication/flat17/</guid>
+      <description>Datacenters have a growing need to monitor and maintain complicated computing machines and verify their systems are functioning at a high level. In order to achieve this goal, it is critical that administrators are able to readily verify basic user operations and survey system performance, quickly discerning when a configuration is sub-optimal. We have created a system health and performance monitoring tool that enables tracking both health and historical performance. The tool presents this data visually and enables the identification of realized and potential problems intuitively.</description>
+    </item>
+    
+    <item>
+      <title>Student Cluster Competition 2016 Reproducibility Challenge: Genomic
+partitioning with ParConnect
+</title>
+      <link>example.com/publication/ababao2017/</link>
+      <pubDate>Wed, 31 Dec 1969 19:33:37 -0500</pubDate>
+      
+      <guid>example.com/publication/ababao2017/</guid>
+      <description>As part of a reproducibility initiative from the Student Cluster Competition 2016, specific results and trends presented in “A parallel connectivity algorithm for de Bruijn graphs in metagenomic applications” were similarly produced and verified. The general lack of reproducibility within the scientific community is a known issue, but few have the time, resources, or incentives to fully address it. Motivation for reproducibility resides in the need to independently validate previous research claims and test the difficulty or ease with which these claims may be reasserted.</description>
+    </item>
+    
+  </channel>
+</rss>

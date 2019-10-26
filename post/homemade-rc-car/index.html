@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="example.com/css/oldport.css">
+<body>
+      <div class="container" >
+        <div class="row" >
+          <div class="col-12 col-lg-3 content_body"><div class="whitebox col-12 text-center">
+  <div class='col-xs-12 text-center '>  
+    <div class='col-xs-12 text-center '>  
+      <h3 class='textbox'>Joseph Voss</h3>
+      <hr>
+    </div>
+    <div class="row">
+      
+      <div class="col">
+        <a href='mailto:jvoss@josephvoss.com' target="_blank"><i class='fa fa-envelope fa-1x' style="vertical-align: middle; font-size: 1.5em;"></i></a>
+      </div>
+      
+      <div class="col">
+        <a href='https://github.com/josephvoss' target="_blank"><i class='fa fa-github fa-1x' style="vertical-align: middle; font-size: 1.5em;"></i></a>
+      </div>
+      
+      <div class="col">
+        <a href='https://www.linkedin.com/in/josephvoss14' target="_blank"><i class='fa fa-linkedin fa-1x' style="vertical-align: middle; font-size: 1.5em;"></i></a>
+      </div>
+      
+      <div class="col">
+        <a href='/resume.pdf' target="_blank"><i class='fa fa-file-text fa-1x' style="vertical-align: middle; font-size: 1.5em;"></i></a>
+      </div>
+      
+
+      
+    </div>
+  </div>
+  <br>
+HPC Systems Engineer at Oak Ridge National Laboratory with a background in Mechanical Engineering 
+
+  <br>
+  <br>
+</div>
+<div class='gap col-xs-12'></div>  
+
+<div class="whitebox col-12" style='word-wrap: break-word;'>
+  <div class="row textbox text-center" style='padding-top: .33rem'>
+    
+    <div class='col'><a class='link' href="example.com/about">About</a></div>
+    
+    <div class='col'><a class='link' href="example.com/">Projects</a></div>
+    
+    <div class='col'><a class='link' href="example.com/resume.html">Resume</a></div>
+    
+  </div>
+</div>
+<div class='gap col-xs-12'></div>  
+</div>
+          <div class="col-12 col-lg-6 content_body">
+            <div class="whitebox col">
+              <div id="content">
+<div class="textbox">
+  <h2 id="title" class="text-center textbox" >Homemade RC Car</h2>
+  <hr>
+  <div>
+    <article id="content">
+      05-05-2017
+      <br>
+      <br>
+      <p><br>
+<img class="img-responsive center_img" style="max-width: 75%" src="/img/back right view.png">
+<br></p>
+
+<p>For the final project in Machine Elements we were tasked to design and build
+a remote-controlled car in groups of five. These cars would then be raced against
+each other at the end of the semester. This project was broken into three main
+components that we would complete throughout the course: the chassis,
+drive-train, and steering. These components only served to split up the
+deliverables across three months; the design of the car by necessity was
+iterative, meaning that we had to reconsider our exisiting designs once we
+found something we had previously planned wouldn&rsquo;t work as intented. An example
+of this is after we designed and cut the mounting holes into the chassis for
+our motor mount, we realized the size of gears means they couldn&rsquo;t mesh
+properly. This required us to go back and re-make the chassis to have vertical
+mounting slots, so we could move the motor mount dynamically by loosening and
+tightening the screws. Additionally, we had to redesign the motor mount to also
+hold a shaft for an idler gear that would give us the space we needed in the
+drive train.</p>
+
+<p>The chassis was initially made to just be a flat piece of laser-cut acrylic,
+which we could mount the eletrical and mechanical components to. We did a basic
+FEA analysis in solidworks, pictured below, which showed that for the forces we
+expected a single sheet of 1/8th inch acrylic would suffice. In hindsight we
+should have designed some multilayered design because flexure between the front
+and rear of the car proved to be an issue, especially where it impacted the
+gear box. At the time we wanted to start with something simple we could build
+the rest of the car around, and go back and edit if we saw any major problems.
+The flexure issue was insignificant enough that by the time we finished
+building the rest of the car we figured it hold up throughout the final race.</p>
+
+<p><br>
+<img class="img-responsive center_img" style="max-width: 75%" src="/img/Full_car.jpg">
+<br></p>
+
+<p>The drive-train design centered around the choice in the gear ratio. Using the
+rated torque-speed curve of the provided motor and assuming the coefficient of
+friction to be around 0.9, we estimated a desired gear ratio in the range of 3-7
+between the motor and the wheels. To help give us more traction during the turns
+and avoid wheel slippage we chose to make a rear driven car with a rear
+differential. Initially we tried to 3D print the differential, but the gear
+teeth were so weak that we decided to purchase a composite RC differential,
+along with a metal pinion and idler gear. This durability ended up proving it&rsquo;s
+worth during the race, when the groups using plastic gears found their teeth
+completely worn off after a few laps. We purchased standard 10th scale RC tires,
+dogbones, and axels, which made the rest of the drive-train design very simple.
+After printing two back axel mounts and an adapter for the dogbones to
+differential, the rear of our car was complete.</p>
+
+<p>The last piece to design was the steering component, which ended up being the
+most straight-forward component. A bell-crank desing was chosen because of the
+rotational movement of the steering servo we were provided. All that we need to
+make were linkages to connect the axel mounts to the steering servo and a couple
+shoulder knuckles to set the angle of the rotation for each wheel. A simple
+approximation using Ackerman geometery was used to solve for the length of the
+linkages and the angle of the knuckles. All of these parts took less than half
+an hour to print, and fit perfectly on the first attempt.</p>
+
+<p><br>
+<img class="img-responsive center_img" style="max-width: 75%" src="/img/rc-car-steering-cropped.gif">
+<br></p>
+
+<p>Overall our car placed first in the competition. Our final report and presentation are shown below.</p>
+
+<p><a href="/pdf/Homemade-RC-Car-Final-Report.pdf">Link to report</a></p>
+
+<p><a href="https://docs.google.com/presentation/d/1Y0cdPDCUEBBNTLJp0JSCgqZbfYQr_6cODhHjN4-cQM4/pub?start=false&amp;loop=false&amp;delayms=3000#slide=id.g217269ab07_0_81">Link to
+presentation</a></p>
+
+<p><br>
+<img class="img-responsive center_img" style="max-width: 75%" src="/img/FEA Chassis.png">
+<br></p>
+
+    </article>
+  </div>
+<aside id="meta">
+    <div>
+    <section>
+    </section>
+    
+    
+    Tags:
+    <ul id="tags">
+      
+        <li> <a class="link" href="example.com/tagsmechanical">mechanical</a> </li>
+      
+        <li> <a class="link" href="example.com/tagsacademic">academic</a> </li>
+      
+    </ul>
+    
+    </div>
+    <div class='row'>
+      <div class='col'>
+        
+          Previous post: <a class="previous link" href="example.com/post/grafana-visualization/"> Grafana Visualization</a>
+        
+      </div>
+      <div class='col'>
+      <div>
+      <div class='col' style="text-align: right;">
+        
+          Next post: <a class="next link" href="example.com/post/hand-machined-vice/"> Hand Machined Vice</a>
+        
+      </div>
+    </div>
+</aside>
+</div>
+
+              </div>
+            </div>
+            <div class='gap col-xs-12'></div>  
+          </div>
+          <div class="col-12 col-lg-3 content_body"><div class="whitebox textbox col-12">
+  <div class="text-center">
+    <h4>Posts</h4>
+    <hr>
+  </div>
+  <ul>
+    
+    <li><a class='link' href='example.com/post/fire-rescue-robot/'>Fire Rescue Robot</a></li>
+    
+    <li><a class='link' href='example.com/post/hand-machined-vice/'>Hand Machined Vice</a></li>
+    
+    <li><a class='link' href='example.com/post/homemade-rc-car/'>Homemade RC Car</a></li>
+    
+    <li><a class='link' href='example.com/post/grafana-visualization/'>Grafana Visualization</a></li>
+    
+    <li><a class='link' href='example.com/post/student-cluster-competition/'>Student Cluster Competition</a></li>
+    
+    <li><a class='link' href='example.com/post/fluid-flow-simulation/'>Fluid Flow Simulation</a></li>
+    
+    <li><a class='link' href='example.com/post/vindicator-cpu/'>Vindicator CPU</a></li>
+    
+    <li><a class='link' href='example.com/post/portable-bluetooth-display/'>Portable Bluetooth Display</a></li>
+    
+    <li><a class='link' href='example.com/post/rotating-disk-projector/'>Rotating Disk Projector</a></li>
+    
+    <li><a class='link' href='example.com/post/vanadium-dioxide-logic-gates/'>Vanadium Dioxide Logic Gates</a></li>
+    
+  </ul>
+
+</div>
+<div class='gap col-xs-12'></div>  
+<div class="whitebox textbox col-12" style='word-wrap: break-word;'>
+  <div class="text-center">
+    <h4>Publications</h4>
+  </div>
+  <hr>
+  <ul>
+     <li><a class='link' href='example.com/publication/flat17/'>Automated System Health and Performance Benchmarking Platform: High
+Performance Computing Test Harness with Jenkins
+</a></li>
+     <li><a class='link' href='example.com/publication/ababao2017/'>Student Cluster Competition 2016 Reproducibility Challenge: Genomic
+partitioning with ParConnect
+</a></li>
+    
+  </ul>
+</div>
+</div>
+        </div>
+      </div><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

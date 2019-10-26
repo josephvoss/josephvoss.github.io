@@ -1,0 +1,46 @@
+.fa {
+  padding: 05px;
+  color: #2d2d2d;
+}
+
+.whitebox {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.textbox {
+  padding-top: .66rem;
+  padding-bottom: .33rem;
+  box-sizing: border-box;
+}
+
+.gap {
+  min-height: .5rem;
+}
+
+body {
+  background-color: #273746;
+  height: 100vh;
+  position: relative;
+}
+
+a:link, .link {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.site {
+  margin: auto;
+  word-spacing: 20px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+
+.center_img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}

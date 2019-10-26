@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mechanical on My New Hugo Site</title>
+    <link>example.com/tags/mechanical/</link>
+    <description>Recent content in mechanical on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Dec 2017 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="example.com/tags/mechanical/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fire Rescue Robot</title>
+      <link>example.com/post/fire-rescue-robot/</link>
+      <pubDate>Sat, 16 Dec 2017 00:00:00 -0600</pubDate>
+      
+      <guid>example.com/post/fire-rescue-robot/</guid>
+      <description>-- 
+Sorry, your browser doesn&amp;rsquo;t support embedded videos, but don&amp;rsquo;t worry, you can download it and watch it with your favorite video player!  In Fall of 2017 I took the Mechanical Engineering Design and Methodology course, as a precursor to Senior Design the next semester. This course was structured to teach methods through hands-on design work for a project throughout the semester. The project for this semester was to create a fire rescue robot with the goal of entering a high-temperature environment and locating an injured pet.</description>
+    </item>
+    
+    <item>
+      <title>Hand Machined Vice</title>
+      <link>example.com/post/hand-machined-vice/</link>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 -0600</pubDate>
+      
+      <guid>example.com/post/hand-machined-vice/</guid>
+      <description>In Fall of 2017 I took a course in Machine tool operation. This class met for 6 hours a week in the machine shop on campus and taught basic metalworking skills for use with manual lathes and mills, along with hands on experience in casting parts and generating G-Code to program CNC machines. After creating a couple practice parts using the mill and lathe we each constructed a moveable vice from scratch.</description>
+    </item>
+    
+    <item>
+      <title>Homemade RC Car</title>
+      <link>example.com/post/homemade-rc-car/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 -0600</pubDate>
+      
+      <guid>example.com/post/homemade-rc-car/</guid>
+      <description>For the final project in Machine Elements we were tasked to design and build a remote-controlled car in groups of five. These cars would then be raced against each other at the end of the semester. This project was broken into three main components that we would complete throughout the course: the chassis, drive-train, and steering. These components only served to split up the deliverables across three months; the design of the car by necessity was iterative, meaning that we had to reconsider our exisiting designs once we found something we had previously planned wouldn&amp;rsquo;t work as intented.</description>
+    </item>
+    
+  </channel>
+</rss>
