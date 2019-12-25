@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/josephvoss
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://josephvoss.com
+  * I am josephvoss (https://keybase.io/josephvoss) on keybase.
+  * I have a public key with fingerprint 8819 979C B823 142F D889  7AD9 8089 B099 8C7E C376
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205ecd72bb5d286a3f88e33f09b4361ed75d1e91e6f173bb2b2261bdebbb77718a0a",
+      "fingerprint": "8819979cb823142fd8897ad98089b0998c7ec376",
+      "host": "keybase.io",
+      "key_id": "8089b0998c7ec376",
+      "kid": "0101eaedf3e346916686d85c161006a0fb30a347efead78eb864c9fe345986769ba70a",
+      "uid": "6cc75360ca57750c7ac62252270a2719",
+      "username": "josephvoss"
+    },
+    "service": {
+      "hostname": "josephvoss.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1577240352,
+  "expire_in": 157680000,
+  "prev": "dc83eba92d973e2926a6e71be8d851c46000ac5580a71e5fe5c0a5da7b6bf08c",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtkn9olVUYx+90wjQcTeYlpP3hCzmTNc85733Pjws2NWMEgVhBorTL+fG8u++8
+e9+7+96tls3WL8nrVjkJVlwyXEZailgGi/4oBIv5A9SUpNagqEgtJJpoCXXeS/ur
+zj+H85zP93u+z8N5bfH8VEPdj7s9Z8XY6Nt1p35Rqa55X2ze7qjIDDrZ7c42qG1Q
+MBCXc9sC42QdhAnyQBtGlPIM4VS6Pufguj4SKuNSDIZ5BoPAQH3MXKWIIoRiZUAp
+xRjDXCLptDl+EHZDqVgKwrK15RwLwYRWnLg4Q3zDuWDSCI64UEgIrhlol1ErzEdx
+orDhlIyhPYhszR5ytXj/w8/lRhgkGN8FN0MFppRTwz2NKUaISuQrF0k3w8AHaRgH
+xWlGC9/CnuCUUaEkq+Xur9lRrZnnUqSlx5iHNJOaEuIRYiHCsEjAGEqh7AVL90Qx
+FPMDURw7Q22OrQ8EGpLRJr38h2nXUa/VF0tROdJRwd7ly+ViNpGWB4sJ+ySo3L8u
+ORWExo7SCgagFAdR6GSxJXU5SGyxjUcyyPVImwNPFYMS5IKwVqYc2ZU8AwPW0mju
+bgUlBTGCuUAEoZICwwq4HRPWGWppqT2PI8kweD54GknPSKao8hHXTtJYXxg5WWFz
+ym7rGQfdoSz3l8AZWrSrzq1P1TWkWtLL6z/f1Hfl95nG9OhdPVNz32/BvOTvpRYt
+vHOusmFxQ+rVv5ee/POHjfe0fji6qzpd+fn4JwefXflTZ1O+c8OyfNeRm5+NzL77
+6Kbm9TMrnx9PX7r77Fr5wfL3lu74Un573/CEt6az6ZXxhen57W9MDcI7F6pnDwz1
+X91S/82LS5zJZY2TxRcKs6kzOz/Nbj5w/Y81lSsjN9P3V8OOBwdPrLq99jDf89HQ
+rYf3teRW77x6rrX1gbGjL5258Nz+pnsvne8tDJtrLRN9G/dOjMycrj5zY8nw7a/W
+H979V1PjxafZm0d+FW17uvCKjvCOya8fKzRXqtdP7+2c9k4c/3jH1Nh5efC3jlsP
+vfzW9CM9657Yd+P9yvixa5Vzqy8Ob3k8f/TU5XXy0MkFq469Pvv9d5eb/wE=
+=uwoj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/josephvoss
+
+==================================================================
