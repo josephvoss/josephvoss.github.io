@@ -22,8 +22,8 @@
 
 body {
   background-color: #273746;
-  height: 100vh;
   position: relative;
+  background-size: 100% auto;
 }
 
 a:link, .link {

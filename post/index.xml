@@ -6,10 +6,19 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Dec 2017 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2019 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Student Cluster Competition 2019</title>
+      <link>/post/scc-2019/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/post/scc-2019/</guid>
+      <description>Several of my colleagues at Oak Ridge National Labs (including myself) got involved in high performance computing through the Student Cluster Competition. More about the competition can be found at the competition website or in the post I wrote earlier when I competed, but essentially it challenges undergraduate students to design, build, and manage a small HPC cluster to run a set of scientific applications quickly and efficiently. This competition does a fantastic job of getting students involved in scientific computing and system engineering, and as such one of my coworkers wanted to host a team for 2019.</description>
+    </item>
     
     <item>
       <title>Fire Rescue Robot</title>
