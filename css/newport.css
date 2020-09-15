@@ -19,6 +19,16 @@
   margin: auto;
 }
 
+.post-nav-left {
+  text-align: left;
+  padding-right: 5px;
+}
+
+.post-nav-right {
+  text-align: right;
+  padding-left: 5px;
+}
+
 .site-title {
   font-size: 24px;
   text-align: center;
