@@ -112,6 +112,15 @@ Sorry, your browser doesn&amp;rsquo;t support embedded videos, but don&amp;rsquo
     </item>
     
     <item>
+      <title>Anchor: Diskless Cluster Provisioning Using Container Tools</title>
+      <link>/publication/anchor20/</link>
+      <pubDate>Wed, 31 Dec 1969 19:33:40 -0500</pubDate>
+      
+      <guid>/publication/anchor20/</guid>
+      <description>Large scale compute clusters are often managed without local disks to ease configuration management across several hundred nodes. This diskless management frequently relies on a collection of in-house scripts designed to build client compute images. By leveraging container building tools matured by the tech community we can reduce internal technical debt while allowing cluster installations to be more flexible and resilient. Deploying container images to compute clusters, however, remains an unsolved problem.</description>
+    </item>
+    
+    <item>
       <title>Automated System Health and Performance Benchmarking Platform: High
 Performance Computing Test Harness with Jenkins
 </title>
